@@ -1,6 +1,9 @@
 # build output
 dist/
 
+#turns out its usefull
+.astro/
+
 # dependencies
 node_modules/
 
