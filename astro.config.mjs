@@ -15,7 +15,8 @@ export default defineConfig({
 					items: [
 						// Each item here is one entry in the navigation menu.
 						{ slug: 'Combat', slug: 'combat/antibot' },
-						{ slug: 'Combat', slug: 'combat/autogapple' }
+						{ slug: 'Combat', slug: 'combat/autogapple' },
+						{ slug: 'Combat', slug: 'combat/killaura' }
 					],
 				},
 			],
