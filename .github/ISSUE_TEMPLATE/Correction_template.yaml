@@ -1,5 +1,6 @@
 name: Make a Correction
 labels: "[Correction]"
+description: "Make a Correction"
 assignees:
   - Muffinmaker2
 body:
