@@ -1,3 +1,14 @@
 # This is the Augustus Wiki
 
-Omg This is soooooooooooooooooooo Empty omg omg omg omg pls kill me
+The UnOffical Wiki writen by Muffinmaker and hosted by ZDibLO <3
+
+Augustus is a minecraft modification made by:
+
+**dereinzigwahreesound aka E-sound**
+
+**EnZaXD**
+
+**DasNeueUpdate**
+
+
+This Wiki is a Augustus Community efford so everyone can contribute Additions or corrections via the Issue Page
