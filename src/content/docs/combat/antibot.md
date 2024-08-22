@@ -2,6 +2,9 @@
 title: Antibot
 ---
 
+Antibot is used to filter out fake Players/Bots made by Anticheats in an efford to detect your Killaura
+
+
 #### Advanced
 Uses Magic to search for Bots(idk atm)
 

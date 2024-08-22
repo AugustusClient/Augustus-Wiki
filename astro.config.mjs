@@ -18,6 +18,15 @@ export default defineConfig({
 						{ slug: 'Combat', slug: 'combat/autogapple' },
 					],
 				},
+				{
+					label: 'Fun',
+					items: [
+						// Each item here is one entry in the navigation menu.
+						{ slug: 'Fun', slug: 'fun/autojumpandrun' },
+						{ slug: 'Fun', slug: 'fun/autoreport' },
+						{ slug: 'Fun', slug: 'fun/deathcommand' },
+					],
+				},
 			],
 		}),
 	],
