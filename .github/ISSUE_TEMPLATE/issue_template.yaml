@@ -1,7 +1,6 @@
 name: Bug Report
 description: File a bug report.
-title: "[Bug]: "
-projects: ["Augustus-Wiki"]
+title: "[Contributen]: "
 assignees:
   - Muffinmaker2
 body:
