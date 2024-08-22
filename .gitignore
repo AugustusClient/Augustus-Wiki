@@ -24,3 +24,6 @@ pnpm-debug.log*
 .vscode/
 
 SkiddedStyles.md
+
+#my batch to test the site
+run.bat
