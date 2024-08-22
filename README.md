@@ -12,3 +12,4 @@ Augustus is a minecraft modification made by:
 
 
 This Wiki is a Augustus Community efford so everyone can contribute Additions or corrections via the Issue Page
+[Create a new Addition/Correction](https://github.com/Muffinmaker2/Augustus-Wiki/issues/new/choose)
