@@ -1,15 +1,14 @@
 ---
-title: AutoReport
+title: FriendsFinder
 ---
-AutoReport is used to Auto Report your last Matches on GommeHD
+FriendFinder sends Invites to everyone in the Lobby so you can find new friends on GommeHD :D
 
-#### MinDelay
-
-Sets the Minimum Delay for Reports to happen which means how fast it is allowed to be
+#### MinDelay:
+How fast the FriendFinder should work
 
 #### MaxDelay
 
-Sets the Maximum Delay for Reports to happen which means how slow it is allowed to be
+How slow the FriendFinder should work
 
 <div style="border-left: 3px solid #EEBD53; background-color: #5C4C29; padding: 10px 15px; color: #F4E6C5; font-family: Arial, sans-serif; font-size: 14px; max-width: 600px; border-radius: 8px; box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);">
   <div style="display: flex; align-items: center; font-weight: bold; margin-bottom: 1px;">
@@ -20,3 +19,7 @@ Sets the Maximum Delay for Reports to happen which means how slow it is allowed 
     If you set MinDelay and MaxDelay to diffrent values the Client will take Values between those two Numbers.
   </div>
 </div>
+
+#### HideMessage
+
+Hides the Messages send by FriendFinder

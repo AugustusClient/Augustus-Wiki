@@ -1,9 +1,9 @@
 ---
 title: Antibot
 ---
-
-Antibot is used to filter out fake Players/Bots made by Anticheats in an efford to detect your Killaura
-
+Antibot is used to filter out fake Players made by Anticheats effords to detect your Killaura
+# Modes
+Modes are used to customize Antibot so it suits the Server you play on
 
 #### Advanced
 Uses Magic to search for Bots(idk atm)
@@ -21,7 +21,7 @@ Check if Bot is in Team NULL
 Checks if Bot has an Illigal Pitch
 
 #### TicksExisted
-Checks for how many Ticks the Bot excistedTickExisted: Set the Ticks from 1 - 100
+Checks for how many Ticks the Bot excisted
 
 #### NegativHealth
 Checks if Bot has -1 Health or less

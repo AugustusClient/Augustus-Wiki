@@ -1,33 +1,34 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 
-// https://astro.build/config
 export default defineConfig({
-	integrations: [
-		starlight({
-			title: 'My Docs',
-			social: {
-				github: 'https://github.com/withastro/starlight',
-			},
-			sidebar: [
-				{
-					label: 'Combat',
-					items: [
-						// Each item here is one entry in the navigation menu.
-						{ slug: 'Combat', slug: 'combat/antibot' },
-						{ slug: 'Combat', slug: 'combat/autogapple' },
-					],
-				},
-				{
-					label: 'Fun',
-					items: [
-						// Each item here is one entry in the navigation menu.
-						{ slug: 'Fun', slug: 'fun/autojumpandrun' },
-						{ slug: 'Fun', slug: 'fun/autoreport' },
-						{ slug: 'Fun', slug: 'fun/deathcommand' },
-					],
-				},
-			],
-		}),
-	],
-});
+    integrations: [
+        starlight({
+            title: 'My Docs',
+            tableOfContents: {
+                minHeadingLevel: 1,
+                maxHeadingLevel: 6,
+            },
+            sidebar: [
+                {
+                    label: 'Combat',
+                    items: [
+                        { slug: 'combat/antibot' },
+                        { slug: 'combat/autogapple' },
+                    ],
+                },
+                {
+                    label: 'Fun',
+                    items: [
+                        { slug: 'fun/autojumpandrun' },
+                        { slug: 'fun/autoreport' },
+                        { slug: 'fun/deathcommand' },
+                        { slug: 'fun/friendfinder' },
+                        { slug: 'fun/killmessage' },
+                        { slug: 'fun/lag' },
+                    ],
+                },
+            ],
+        }),
+    ],
+})
