@@ -2,7 +2,7 @@ name: Form for Augustus Wiki
 description: File a Addition/Correction.
 title: "[Issue]: "
 labels: ["Addition", "Correction"]
-projects: ["Augustus-Bible"]
+projects: ["octo-org/1", "octo-org/44"]
 assignees:
   - Muffinmaker2
 body:
