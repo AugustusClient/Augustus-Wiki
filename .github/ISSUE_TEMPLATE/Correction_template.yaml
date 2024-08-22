@@ -1,0 +1,19 @@
+name: Make a Addition
+description: File a bug report.
+labels: "[Correction]"
+assignees:
+  - Muffinmaker2
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to make Augustus-Wiki great :D
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What is the Correction?
+      description: Also tell us, what did you want to correct?
+      placeholder: Tell us!
+      value: "Type your correction here"
+    validations:
+      required: true
