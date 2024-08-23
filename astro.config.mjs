@@ -4,7 +4,7 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
     integrations: [
         starlight({
-            title: 'My Docs',
+            title: 'Augustus Wiki',
             tableOfContents: {
                 minHeadingLevel: 1,
                 maxHeadingLevel: 6,
