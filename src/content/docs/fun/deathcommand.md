@@ -1,5 +1,6 @@
 ---
 title: Deathcommand
+description: For GommeHD
 ---
 DeathCommand sends /warp ffa into chat so you get teleported to GommeHD FFA
 

@@ -1,5 +1,6 @@
 ---
 title: AutoReport
+description: AutoReports everyone
 ---
 AutoReport is used to Auto Report your last Matches on GommeHD
 

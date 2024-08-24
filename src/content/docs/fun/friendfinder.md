@@ -1,9 +1,11 @@
 ---
 title: FriendsFinder
+description: Friends for everyone :D
 ---
 FriendFinder sends Invites to everyone in the Lobby so you can find new friends on GommeHD :D
 
-#### MinDelay:
+#### MinDelay
+
 How fast the FriendFinder should work
 
 #### MaxDelay

@@ -1,5 +1,6 @@
 ---
 title: KillMessage
+description: Like CSGO Killsay
 ---
 KillMessage will send a very Message you can set after you kill anyone
 
