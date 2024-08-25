@@ -11,32 +11,45 @@ export default defineConfig({
             },
             sidebar: [
                 {
-                    label: 'Combat',
+                    label: 'Basic',
                     items: [
-                        { slug: 'combat/antibot' },
-                        { slug: 'combat/autogapple' },
-                    ],
-                },                
-                {
-                    label: 'Misc',
-                    items: [
-                        { slug: 'misc/antiafk' },
+                        { slug: 'intro/introduction'},
+                        { slug: 'intro/introduction2'},
                     ],
                 },
                 {
-                    label: 'Fun',
+                    label: 'Modules',
                     items: [
-                        { slug: 'fun/autojumpandrun' },
-                        { slug: 'fun/autoreport' },
-                        { slug: 'fun/deathcommand' },
-                        { slug: 'fun/friendfinder' },
-                        { slug: 'fun/killmessage' },
-                        { slug: 'fun/lag' },
-                        { slug: 'fun/mlg'},
-                        { slug: 'fun/partyspammer'},
-                        { slug: 'fun/shufflemode'},
-                        { slug: 'fun/spammer'},
-                        { slug: 'fun/spinbot'},
+                        { slug: 'intro/moduleintro'},
+                        {
+                            label: 'Combat',
+                            items: [
+                                { slug: 'combat/antibot' },
+                                { slug: 'combat/autogapple' },
+                            ],
+                        },                
+                        {
+                            label: 'Misc',
+                            items: [
+                                { slug: 'misc/antiafk' },
+                            ],
+                        },
+                        {
+                            label: 'Fun',
+                            items: [
+                                { slug: 'fun/autojumpandrun' },
+                                { slug: 'fun/autoreport' },
+                                { slug: 'fun/deathcommand' },
+                                { slug: 'fun/friendfinder' },
+                                { slug: 'fun/killmessage' },
+                                { slug: 'fun/lag' },
+                                { slug: 'fun/mlg'},
+                                { slug: 'fun/partyspammer'},
+                                { slug: 'fun/shufflemode'},
+                                { slug: 'fun/spammer'},
+                                { slug: 'fun/spinbot'},
+                            ],
+                        },
                     ],
                 },
             ],
