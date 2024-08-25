@@ -43,4 +43,6 @@ Legit: 0%
 
  ZDibLO: Helping me with Setting up this Github Repo
 
+ brett: Showed me Vercal as a Website Hoster
+
  
