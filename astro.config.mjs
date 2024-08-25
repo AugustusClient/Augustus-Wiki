@@ -11,7 +11,7 @@ export default defineConfig({
             },
             sidebar: [
                 {
-                    label: 'Basic',
+                    label: 'Penis',
                     items: [
                         { slug: 'intro/introduction'},
                         { slug: 'intro/introduction2'},
