@@ -27,11 +27,38 @@ export default defineConfig({
                                 { slug: 'combat/antibot' },
                                 { slug: 'combat/autogapple' },
                             ],
-                        },                
+                        },
+                        {
+                            label: 'Legit',
+                            items: [
+                            ],
+                        },
+                        {
+                            label: 'Latency',
+                            items: [
+                            ],
+                        },  
+                        {
+                            label: 'Movement',
+                            items: [
+                            ],
+                        },             
+                        {
+                            label: 'Player',
+                            items: [
+                            ],
+                        },
+                        {
+                            label: 'Render',
+                            items: [
+                            ],
+                        },
                         {
                             label: 'Misc',
                             items: [
                                 { slug: 'misc/antiafk' },
+                                { slug: 'misc/antiachievement' },
+                                { slug: 'misc/aquamessenger' },
                             ],
                         },
                         {
