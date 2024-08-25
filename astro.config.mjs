@@ -16,6 +16,12 @@ export default defineConfig({
                         { slug: 'combat/antibot' },
                         { slug: 'combat/autogapple' },
                     ],
+                },                
+                {
+                    label: 'Misc',
+                    items: [
+                        { slug: 'misc/antiafk' },
+                    ],
                 },
                 {
                     label: 'Fun',
@@ -30,6 +36,7 @@ export default defineConfig({
                         { slug: 'fun/partyspammer'},
                         { slug: 'fun/shufflemode'},
                         { slug: 'fun/spammer'},
+                        { slug: 'fun/spinbot'},
                     ],
                 },
             ],

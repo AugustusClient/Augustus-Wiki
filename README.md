@@ -14,3 +14,23 @@ Augustus is a minecraft modification made by:
 This Wiki is a Augustus Community efford so everyone can contribute Additions or corrections via the Issue Page
 
 [Create a new Addition/Correction](https://github.com/Muffinmaker2/Augustus-Wiki/issues/new/choose)
+
+
+
+Current Completion Status of Tabs:
+
+Combat: 0%
+
+Legit: 0%
+
+ Latency: 0%
+
+ Movement: 0%
+
+ Render: 0%
+
+ World: 0%
+
+ Misc: 0%
+
+ Fun: 100%

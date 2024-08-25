@@ -12,7 +12,7 @@ Here you can configure the Module
 Sets the minimum Delay of Ticks between Messages
 
 ### MaxTickDelay
-Sets the max Delay of Ticks between Messages
+Sets the maximum Delay of Ticks between Messages
 
 ## Modes
 There are 4 Modes that Spammer can operate in
