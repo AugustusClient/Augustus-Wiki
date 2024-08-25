@@ -38,3 +38,9 @@ Legit: 0%
  Misc: 0%
 
  Fun: 100%
+
+ Contributors and Thanks:
+
+ ZDibLO: Helping me with Setting up this Github Repo
+
+ 
