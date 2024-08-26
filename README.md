@@ -17,6 +17,8 @@ This Wiki is a Augustus Community efford so everyone can contribute Additions or
 
 [Check out the wiki page here](https://augustus-wiki.vercel.app/)
 
+[Alternate Wiki Hosted by ZDibLO if Main Wiki goes down](https://augiwiki.zdiblo.lol/)
+
 [Create a new Addition/Correction Issue](https://github.com/Muffinmaker2/Augustus-Wiki/issues/new/choose)
 
 [Wiki Alternative Link (if it is down)](https://github.com/Muffinmaker2/Augustus-Wiki/tree/master/src/content/docs)
