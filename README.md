@@ -44,7 +44,7 @@ Fun: 100%
 
 ### Contributors and Helpers:
 
-ZDibLO: Helped me setup this GitHub repository
+ZDibLO: Helped me setup this GitHub repository and Hosting Backup Wiki
 
 brett: Showed me how to setup Vercel (for hosting the actual wiki page)
 
