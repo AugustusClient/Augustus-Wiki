@@ -21,7 +21,7 @@ Check if Bot is in Team NULL
 Checks if Bot has an Illigal Pitch
 
 #### TicksExisted
-Checks for how many Ticks the Bot excisted
+Checks for how many Ticks the Bot existed
 
 #### NegativHealth
 Checks if Bot has -1 Health or less
