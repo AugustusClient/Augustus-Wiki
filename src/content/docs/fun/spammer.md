@@ -28,3 +28,6 @@ Puts Augustus on Top! with Random Lower and Uppercase with Numbers at the End
 
 ### None
 Puts Augustus on Top! with nothing at the End
+
+## Misc
+Spammer can be configured with Custom Messaged by typing .spammer TheTextIWantToGetSpammed
