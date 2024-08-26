@@ -46,4 +46,5 @@ ZDibLO: Helped me setup this GitHub repository
 
 brett: Showed me how to setup Vercel (for hosting the actual wiki page)
 
+AciditySoft: Made the first Pull Request to Update something in the Wiki
  
