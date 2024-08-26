@@ -1,6 +1,2 @@
 # This will make both Muffinmaker and Muffinmaker2 reviewers for all files in the repository
 * @Muffinmaker @Muffinmaker2
-
-# Alternatively, you can specify directories or files
-# /src/ @Muffinmaker @Muffinmaker2
-# /docs/ @Muffinmaker @Muffinmaker2
