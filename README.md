@@ -1,48 +1,49 @@
-# This is the Augustus Wiki
+# Augustus Wiki
+The Unoffical Augustus client wiki! This was written by Muffinmaker and hosted by ZDibLO <3
 
-The UnOffical Wiki writen by Muffinmaker and hosted by ZDibLO <3
+## What is Augustus?
+Augustus is a Minecraft modification made, maintained, and/or moderated by:
 
-Augustus is a minecraft modification made by:
+- dereinzigwahreesound aka. E-sound **(Owner)**
 
-**dereinzigwahreesound aka E-sound**
+- EnZaXD
 
-**EnZaXD**
+- DasNeueUpdate
 
-**DasNeueUpdate**
+Augustus Client is designed to aid in Minecraft PVP (player vs. player) combat, and to improve the overall experience of the game. It is also extremely customizable, so you can do pretty much anything you want with Augustus.
 
-
+## More information
 This Wiki is a Augustus Community efford so everyone can contribute Additions or corrections via the Issue Page
 
-[Here it goes to the Offical UnOffical Wiki](https://augustus-wiki.vercel.app/)
+[Check out the wiki page here](https://augustus-wiki.vercel.app/)
 
-[Create a new Addition/Correction](https://github.com/Muffinmaker2/Augustus-Wiki/issues/new/choose)
+[Create a new Addition/Correction Issue](https://github.com/Muffinmaker2/Augustus-Wiki/issues/new/choose)
 
-[If the Wiki is down go here:](https://github.com/Muffinmaker2/Augustus-Wiki/tree/master/src/content/docs)
+[Wiki Alternative Link (if it is down)](https://github.com/Muffinmaker2/Augustus-Wiki/tree/master/src/content/docs)
 
 
-
-Current Completion Status of Tabs:
+### Completion Percentages
 
 Combat: 0%
 
 Legit: 0%
 
- Latency: 0%
+Latency: 0%
 
- Movement: 0%
+Movement: 0%
 
- Render: 0%
+Render: 0%
 
- World: 0%
+World: 0%
 
- Misc: 0%
+Misc: 0%
 
- Fun: 100%
+Fun: 100%
 
- Contributors and Thanks:
+### Contributors and Helpers:
 
- ZDibLO: Helping me with Setting up this Github Repo
+ZDibLO: Helped me setup this GitHub repository
 
- brett: Showed me Vercal as a Website Hoster
+brett: Showed me how to setup Vercel (for hosting the actual wiki page)
 
  
