@@ -59,6 +59,7 @@ export default defineConfig({
                                 { slug: 'misc/antiafk' },
                                 { slug: 'misc/antiachievement' },
                                 { slug: 'misc/aquamessenger' },
+                                { slug: 'misc/autodisable' },
                             ],
                         },
                         {

@@ -30,4 +30,4 @@ Puts Augustus on Top! with Random Lower and Uppercase with Numbers at the End
 Puts Augustus on Top! with nothing at the End
 
 ## Misc
-Spammer can be configured with Custom Messaged by typing .spammer TheTextIWantToGetSpammed
+Spammer can be configured with the mode “Custom”. With that mode you can spam your custom message by typing .spammer [your message]
