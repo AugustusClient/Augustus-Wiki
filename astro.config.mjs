@@ -60,6 +60,8 @@ export default defineConfig({
                                 { slug: 'misc/antiachievement' },
                                 { slug: 'misc/aquamessenger' },
                                 { slug: 'misc/autodisable' },
+                                { slug: 'misc/autoleave' },
+                                { slug: 'misc/autoplay' },
                             ],
                         },
                         {
