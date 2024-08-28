@@ -62,6 +62,7 @@ export default defineConfig({
                                 { slug: 'misc/autodisable' },
                                 { slug: 'misc/autoleave' },
                                 { slug: 'misc/autoplay' },
+                                { slug: 'misc/autoregister' },
                             ],
                         },
                         {
