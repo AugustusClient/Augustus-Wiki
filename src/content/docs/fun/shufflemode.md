@@ -3,4 +3,4 @@ title: ShuffleMode
 description: Crazy Crazy Crazy
 ---
 
-Enabling this makes your client go crazy
+ShuffleMode lets you shuffle around movement packets making it a Intave Movement Disabler

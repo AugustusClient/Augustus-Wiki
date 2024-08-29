@@ -63,6 +63,9 @@ export default defineConfig({
                                 { slug: 'misc/autoleave' },
                                 { slug: 'misc/autoplay' },
                                 { slug: 'misc/autoregister' },
+                                { slug: 'misc/beveragenotify' },
+                                { slug: 'misc/clientsettings' },
+                                { slug: 'misc/clientspoofer' },
                             ],
                         },
                         {
