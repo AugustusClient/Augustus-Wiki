@@ -19,9 +19,10 @@ This Wiki is a Augustus Community efford so everyone can contribute Additions or
 
 [Alternate Wiki Hosted by ZDibLO if Main Wiki goes down](https://augiwiki.zdiblo.lol/)
 
-[Create a new Addition/Correction Issue](https://github.com/Muffinmaker2/Augustus-Wiki/issues/new/choose)
-
 [Wiki Alternative Link (if it is down)](https://github.com/Muffinmaker2/Augustus-Wiki/tree/master/src/content/docs)
+
+## You want to Contribute to the Wiki?
+You can do that by making a direct Pull Request with the Page and description of what you want to change or add if you know how or go [here](https://github.com/Muffinmaker2/Augustus-Wiki/issues/new/choose) to open a Issue
 
 
 ### Completion Percentages
