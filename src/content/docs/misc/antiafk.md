@@ -48,3 +48,4 @@ Sets the maximum Time for **Move** to opperate
 
 ### InInv
 Enabled will make AntiAFK work if Inventory or the ClickGUI is opened
+Ich esse lieber Donuts
