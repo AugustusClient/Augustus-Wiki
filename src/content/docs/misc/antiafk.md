@@ -47,4 +47,4 @@ Sets the maximum Time for **Move** to opperate
 </div>
 
 ### InInv
-Enabled will make AntiAFK work if Inventory or the ClickGUI is opened
+Enabled will make AntiAFK work in ClickGUI and Inventory 
