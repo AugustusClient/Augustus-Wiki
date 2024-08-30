@@ -10,4 +10,20 @@ ClientSpoofer is used to Spoof the Client Info sent to the Server. As an Example
   </div>
   <div>
     Examples where made with an unconfigured version of Grim for simplicity reasons but the overall concept applies to pretty much every Server and their Client Info reporting
+  </div>
 </div>
+
+### Clients
+Here you can set the Clients you want the Server to Report to an Anticheat
+
+#### Default
+Default will report nothing to the Server
+
+#### LabyMod
+Will report to the Server that you are using LabyMod, for the Admins it could look like this: ![alt text](LabyMod.png)
+
+#### CheatBreaker
+Will report to the Server that you are using CheatBreaker, for the Admins it could look like this: ![alt text](CheatBreaker.png)
+
+#### PvPLounge
+Will report to the Server that you are using PvPLounge, for the Admins it could look like this: ![alt text](PvPLounge.png)
