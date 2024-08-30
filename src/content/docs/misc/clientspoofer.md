@@ -20,10 +20,10 @@ Here you can set the Clients you want the Server to Report to an Anticheat
 Default will report nothing to the Server
 
 #### LabyMod
-Will report to the Server that you are using LabyMod, for the Admins it could look like this: ![alt text](LabyMod.png)
+Will report to the Server that you are using LabyMod, for the Admins it could look like this: 
 
 #### CheatBreaker
-Will report to the Server that you are using CheatBreaker, for the Admins it could look like this: ![alt text](CheatBreaker.png)
+Will report to the Server that you are using CheatBreaker, for the Admins it could look like this:
 
 #### PvPLounge
-Will report to the Server that you are using PvPLounge, for the Admins it could look like this: ![alt text](PvPLounge.png)
+Will report to the Server that you are using PvPLounge, for the Admins it could look like this:
