@@ -26,6 +26,7 @@ export default defineConfig({
                             items: [
                                 { slug: 'combat/antibot' },
                                 { slug: 'combat/autogapple' },
+                                { slug: 'combat/killaura' },
                             ],
                         },
                         {
