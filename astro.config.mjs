@@ -13,8 +13,7 @@ export default defineConfig({
                 {
                     label: 'Basic',
                     items: [
-                        { slug: 'intro/introduction'},
-                        { slug: 'intro/introduction2'},
+                        { slug: 'intro/packets'},
                     ],
                 },
                 {
