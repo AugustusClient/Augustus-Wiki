@@ -29,12 +29,13 @@ Custom lets you make your own Client Name that will be Reportet. You can set tha
 Will cancel the Packet send to the Server with the ClientInfo, could cause trouble with some ACs maybe
 
 ### RandomizeClientSettings
-Will Randomize Client Settings that are reported to the Server
+Minecraft sends all your Client Settings to the Server which can be used to detect if you are using an alt, this "can" be used but is causes false positives. RandomizeClientSettings will now take the Client Settings before they are sent to the server, randomizes them and then sents it to the Server which makes it impossible for the Admin to use those informations
 
 #### MinRandomViewDistance
-Sets the minimum Random View Distance that is used to randomize it
+Sets the minimum Random View Distance that is used to randomize
 
 #### MaxRandomViewDistance
-Sets the maximum Random View Distance that is used to randomize it
+Sets the maximum Random View Distance that is used to randomize
 
 ### NotInARow
+NotInARow is a safty messure if RandomizeViewDistance generates the same Settings 4 times in a Row, the 5th time it will force generate a diffrent Number
