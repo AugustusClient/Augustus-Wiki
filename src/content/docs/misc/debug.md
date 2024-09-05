@@ -33,4 +33,20 @@ Shows infos about the ServerSideChat
 ### SoundName
 Prints out all the Sounds that are happening around you into Chat
 
-### 
+### Blink
+Shows info about Blink
+
+### Transactions
+Shows Transactions send by the Server
+
+### OnlyDebugChat
+idk this atm
+
+### Kit1V1Damage
+Will show damage dealt on Kit1V1 on GommeHD
+
+### PlaceDebug
+Will show Delay and the Average Delay of placing blocks
+
+### SneakDebug
+Shows information about sneaking and how long it took to unsneak
