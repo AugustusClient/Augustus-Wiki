@@ -104,3 +104,26 @@ title: Packets and their Uses
 - **CAnimateHandPacket**: Simulates the player's hand animation, such as swinging or using an item.
 
 These packet types represent a variety of actions and data exchanged between the client and server in Minecraft, from movement and combat to world interaction and game state
+
+### EntityActionsToCancel:
+These are actions associated with an entity's behavior, particularly the player, and they likely correspond to player actions that can be canceled.
+
+- **StartSprint**: Indicates that the player begins sprinting.
+- **StopSprint**: Indicates that the player stops sprinting.
+- **StartSneaking**: Signals that the player begins sneaking (crouching).
+- **StopSneaking**: Signals that the player stops sneaking.
+- **StopSleeping**: Indicates that the player has stopped sleeping, likely when exiting a bed.
+- **RidingJump**: Used when the player performs a jump while riding an entity (e.g., a horse or pig).
+- **OpenInventory**: Triggers when the player opens their inventory.
+
+### DiggingPacket:
+These are related to the block digging or destruction process, typically handled when the player interacts with blocks.
+
+- **StartDestroyBlock**: Indicates the player has started breaking a block.
+- **AbortDestroyBlock**: Cancels the block destruction process, such as when the player stops mining mid-way.
+- **StopDestroyBlock**: Sent when the block is fully destroyed by the player.
+- **DropAllItems**: Causes the player to drop all items from their inventory.
+- **DropItem**: Drops a single item from the player’s inventory.
+- **ReleaseUseItem**: Indicates that the player has stopped using an item (e.g., releasing a bowstring after drawing the bow).
+
+These packets are key to handling player actions related to movement, block breaking, and interactions with their inventory or items.

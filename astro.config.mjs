@@ -66,6 +66,7 @@ export default defineConfig({
                                 { slug: 'misc/beveragenotify' },
                                 { slug: 'misc/clientsettings' },
                                 { slug: 'misc/clientspoofer' },
+                                { slug: 'misc/disabler' },
                             ],
                         },
                         {
