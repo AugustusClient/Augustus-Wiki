@@ -43,7 +43,12 @@ Shows Transactions send by the Server
 idk this atm
 
 ### Kit1V1Damage
-Will show damage dealt on Kit1V1 on GommeHD
+Damage reduction debug for GommeHD Kit1v1:
+How to use:
+1. Get a friend (Very hard)
+2. Undress yourself (on a non erotic way)
+3. Hit each other with fists
+4. If you get something different then -1.0 (Hits), -1.5 (Crits) and sometimes -0.5, then you should change your config 
 
 ### PlaceDebug
 Will show Delay and the Average Delay of placing blocks
