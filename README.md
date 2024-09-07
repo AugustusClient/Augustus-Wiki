@@ -1,5 +1,8 @@
 # Augustus Wiki
-The Unoffical Augustus client wiki! This was written by Muffinmaker and hosted by ZDibLO <3
+The Unoffical Augustus client wiki! This was written and hosted by Muffinmaker by ZDibLO <3
+
+## Augustus Public Discord
+Augustus Community DC: http://discord.electriclauncher.de/ 
 
 ## What is Augustus?
 Augustus is a Minecraft modification made, maintained, and/or moderated by:
