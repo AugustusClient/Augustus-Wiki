@@ -63,3 +63,33 @@ Will set the minmum Ping that will be Spoofed to the Server
 
 #### MaxDelay
 Will set the maximum Ping that will be Spoofed to the Server
+
+### Place(Outdated)
+Place was once used to fly on Cubecraft by placing blocks inside you !!! Is now Outdated !!!
+
+### RoyalPixel(Outdated)
+Something for the RoyalPixel Server that isnt anymore
+
+### Spectate
+Old Grim Spectate respawn disabler which disabled movement checks
+
+### Ride
+Lets you disable movement checks while riding entitys
+
+### KarhuClicking
+Disables Click checks on karhu (migbt be outdated)
+
+### OnGroundTrue
+Dont know this one atm
+
+### Tp
+Dont know this one atm
+
+### Test
+Mega Super Duper secret Polar Disabler :troll:
+
+### ResourcePack
+Disables the Custom ResourcePack the server wants you to load
+
+### Hover
+I dont know this one atm
