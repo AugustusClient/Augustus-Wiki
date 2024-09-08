@@ -192,3 +192,56 @@ Range if player is hitting through wall.
 ### NoRotation
 
 Disabled rotation. Super detectable and obvious, will autoban on every anticheat with hitbox check, 99% of anticheats have them. ENABLE.
+
+## Clicking 
+
+Basicly attacking. Autoblocks, perfecthit, cps settings, reduction, 1.9+ timings etc.
+
+### ClickSettings
+
+Describes how many clicks per second killaura can achive.
+
+* This section is to be added in future.
+
+### Interactions
+
+You can find there packet based interactions of attacking/blocking.
+
+#### AttackMode
+
+How killaura will attack
+
+> Legit: Will invoke clickMouse() function in minecraft code.
+
+> Packet: Instead of asking minecraft to attack, sends packet C02PacketUseEntity with action ATTACK and entity your target.
+
+> Multi: Will attack multiple entities in one tick. Switch killaura is way less undetected. This won't work on 90% of anticheats. Not worth to use anyway, switch killaura is almost the same.
+
+#### BlockMode
+
+This is the autoblock. Will significantly reduce incoming damage as you were blocking. Very important aspect of killaura.
+
+None is simply no autoblock, Constant/2 is always blocking, Pre/Post are timings for when to block, UnblockOnHit/2 will "unblock on hit", Legit is legit autoblock (similiar effect as spamming both mouse buttons), and rest can't really be described.
+
+* Killaura for blocking will work as you would just hold sword. This makes Noslow part of autoblock, without properly configured noslow autoblock may ban, slow you down.
+
+#### SmartAutoblock
+
+Unpredictable option for autoblock that makes it sometimes block sometimes not depending on situation.
+
+#### InteractAutoblock
+
+Normally autoblock for blocking/using item sends C08PacketPlayerBlockPlacement. This option replaces this packet send action with actual interaction. If player looks at chest it will interact with chest. Recommended for anticheats that simulate game.
+
+
+#### OnlyRightClickBlock
+
+Will autoblock only if player is holding right mouse button.
+
+#### OnlyWhileSwingInProgess
+
+Will autoblock only if player's item swing animation hasn't finished yet.
+
+#### OnlyWhileHurt
+
+Will autoblock only if player's hurttime (10 everytime you receive damage) is above 0 (you can receive damage now).
