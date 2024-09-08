@@ -52,3 +52,143 @@ Rotations are very tricky to configure but are essential for not getting banned.
 This setting makes killaura not attack enemies that are far from you camera.
 
 It takes diffrence from your rotation to angle of enemy. Then it compares Pitch/Vertical and Yaw/Horizontal diffrence in deegres. This setting is usefull if you dont want killaura to attack players you dont even see. It also makes it not very rapidly rotate to enemy.
+
+### Min/Max Pitch/Yaw Speed/Acceleration
+
+* This setting may be sometimes hidden due to some Randomize:Randomize modes
+
+Main part of rotations. These settings specify by how much will your rotations come towards aiming point per tick. Pitch and Yaw calculations are seperated. For each axis (yaw/pitch) each tick speed is incremented by Acceleration and clamped by limit (Speed), then speed is added to your axis. If axis's target will change direction, acceleration will start accelerating in opposite direction. 
+
+### Better Acceleration
+
+Currently unknown what it does, try using this setting and watch if it improves killaura. It should work better.
+
+### FixRotationMode
+
+Currently unknown what it does, try using this setting and watch if it improves killaura. It may work best with OnlyWhenNeeded.
+
+### Heurestics
+
+This settings makes killaura aiming less detectable. Currently unknown how it works but might be worth testing if improves killaura. Try IntaveTest on IntaveAC, or Pattern1 (On other acs) and watch results.
+
+### RotationMode
+
+It determines killaura's aiming point. 
+
+> Head: This mode will look at enemy's head. Most of client's use this method and may make your killaura more detectable, very basic and not recommended.
+
+> BestHitVec: BestHitVec will look at enemy even if very small part of its hitbox is visible. It even is capable of hitting player from small hole. If NearestHitVec would hit will use it instead. Recommended.
+
+> NearestHitVec: Will clamp player's eye position in enemy's hitbox and look at it from eye's perspective. That is nearest possible point that player can look at enemy. Not that bad but BestHitVec is simply better.
+
+Just set this to BestHitVec, no point at selecting other modes.
+
+#### HitBoxPercentage Vertical/Horizontal
+
+Defines percentage of hitbox on which NearestHitVec rotations would be clamped. Towards center of hitbox.
+
+
+## Randomize
+
+Randomization of aim, very important.
+
+### RandomType
+
+This setting specifies which random distribution should be used.
+
+> Random: Picks random number in specified range with linear distribution. Each number has equal chance.
+
+> SecureRandom: Same as Random but doesn't use global random but private instance of random number generator. Linear uniform but numbers may be more evenly distributed.
+
+> Gausian: Applies <a href="https://en.wikipedia.org/wiki/Normal_distribution" target="_blank">Gausian distribution</a> which makes numbers in middle of range be picked more often. 
+
+> Intave: Applies unknown distribution for random numbers, may improve killaura on IntaveAC.
+
+### Randomize
+
+It specifies which randomization will get applied to player's rotation.
+
+* Modes Noise and Turbo remove Min/Max Pitch/Yaw Speed/Acceleration overriding basic rotation.
+
+> None: Dont apply any randomization.
+
+> Basic: Randomly offsets aiming point by RandomStrength.
+
+> Doubled: Same as Basic but may be more <i><b>special</b></i>.
+
+> OnlyRotation: Works as Basic but only if player's head is rotating/aiming. If it already looks at aiming point it doesn't apply.
+
+> Hybrid: Unknown what it does.
+
+> Polar: Weird mode of randomization that might be very good. Oscilates pitch in yaw axis from above enemy's head to below his feet.
+
+> Circle: Rotates in circle around aiming point. Radius becomes larger the further player is from enemy.
+
+> Advanced: More sophisticated randomization, has many diffrent settings that i am not going to explain, if you are willing to use this mode you should see how diffrent settings change this mode. It basicly jumps around points in area defined by Circles{R=Radius} and exclusive for Circle{R=InnerRadius}, with Absolute and Relative distance from current offset.
+
+> Noise: Vere randomly jumps around biased towards enemy. Overrides basic rotations and unpredictable. If you are willing to use this mode you should see how diffrent settings change this mode. Speed is how fast it will move, chances have weird/unexplained behaviour.
+
+>Turbo: Mode made for IntaveAC with goal of improving basic rotations to work faster without getting detected. Designed for IntaveAC, but might be used for any anticheat
+
+#### Turbo
+
+##### Min/Max AimSpeed/Acceleration
+
+Works same as basic rotation but without seperation for each axis (yaw/pitch);
+
+##### Better Acceleration
+
+Improves acceleration, unknown method. Keep around 0.3 - 0.5.
+
+##### Scale
+
+Not known at the moment what it does. Keep around 1 - 2.
+
+##### Min/Max Target/Player Response
+
+Ticks of prediction for tracking, not sure why these settings doesn't exist outside Turbo mode. Keep around (2-3) - (3-5), higher values for slower rotations (depending on anticheat).
+
+### Tracking Accuracy/Randomization
+
+Tracking is very usefull, it improves aiming speed. Tracking works by predicting where will enemy be in future and rotating to this point. Accuracy defines how accurate it is (?). And randomization by how much positions of player/enemy should be randomized. Just set randomization to like 5-20 and accuracy to 60-80.
+
+
+### SmartAim
+
+Probably improves something in aiming, unknown functionality, probably enable.
+
+### SmartAimEntityCheck
+
+Probably improves something in SmartAim byt hitchecking entity, unknown functionality, probably disable.
+
+### AdvancedRots
+
+Probably improves something in aiming, unknown functionality, probably enable.
+
+### Interpolation
+
+Probably adds some sort of <a href="https://en.wikipedia.org/wiki/Linear_interpolation" target="_blank">Interpolation</a>, disable.
+
+### LockView
+
+Makes player's camera attached with player's rotation. If disabled player may look in diffrent direction than camera and when no longer needs to aim it will return to camera rotations. Doesn't change how killaura works, just where you look not player.
+
+### AimThroughWalls
+
+If disabled and player can't aim at point of enemy where it can be hit will stop looking at enemy. Enabled makes it always look at it.
+
+#### AimThroughWallsRange
+
+How close enemy should be to look at it through walls.
+
+#### ThroughWalls
+
+Decides if player should attack enemy through walls, might be detectable on some anticheats, may insta ban.
+
+#### ThroughWallsRange
+
+Range if player is hitting through wall.
+
+### NoRotation
+
+Disabled rotation. Super detectable and obvious, will autoban on every anticheat with hitbox check, 99% of anticheats have them. ENABLE.
