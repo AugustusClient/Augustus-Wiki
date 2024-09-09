@@ -245,3 +245,64 @@ Will autoblock only if player's item swing animation hasn't finished yet.
 #### OnlyWhileHurt
 
 Will autoblock only if player's hurttime (10 everytime you receive damage) is above 0 (you can receive damage now).
+
+### PreHit
+
+This settings make killaura attack and miss when enemy out of range.
+
+### SmartPreHit
+
+Not clear what this setting does, may improve PreHit.
+
+### Min/Max PreHitRange
+
+How far away enemy can be to prehit work.
+
+### Min/Max PreHitFov
+
+How far from camera can enemy be in deegres to prehit work.
+
+### MissClick + Percentage
+
+If MissClick is enabled, killaura will sometimes fail to hit enemy, and only swing item. Percentage defines how often this occurs.
+
+### PerfectHit
+
+Makes killaura only attack when enemy's hurttime equals to 0. This means killaura only attacks when enemy can receive damage.
+
+### LongClick
+
+This setting makes clicks more legitimate. When you are spamming your mouse to attack your enemy you not only press button down, but you also have to release it. This setting make killaura kind of simulating releasing mouse button.
+
+### CritFix + PacketCheck
+
+I am not 100% certain what it does but it may improve expirence on simulation based anticheats. Enable packet check.
+
+### NoLoopHit
+
+No idea what it does but as far as i know it may improve killaura a lot. Not sure what it does, and if its true.
+
+### BreakBlocks
+
+When killaura misses and would normally hit block nothing will happen. If this setting is enabled it will mine a block for short period of time. Makes killaura more legitimate, but disabling it may be better, no anticheat checks for that as far as i know.
+
+
+### DoubleClickFirstHit
+
+Makes first hit of killaura will always be a double click.
+
+### ReduceCPSIfYouCantHitATarget
+
+Will lower killaura cps if target is out of range.
+
+### NoSwing
+
+With this setting enabled killaura will no longer swing item when attacking. Super illegitimate every anticheat detects it. DISABLE.
+
+### SlowDown
+
+Applies minecraft standard movement motion reduction when attacking and sprinting. Neccesary for Polar/Intave, not for grim. Neccesary for sprint reset based MoreKB modes work. Enable if you feel you need it.
+
+### CoolDown
+
+For 1.9+ fighting you need to wait until your weapon cools down. Will wait for this to happen. Enable for 1.9+ versions.
