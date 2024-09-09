@@ -69,6 +69,8 @@ export default defineConfig({
                                 { slug: 'misc/debug' },
                                 { slug: 'misc/disabler' },
                                 { slug: 'misc/enderpearlnotify' },
+                                { slug: 'misc/exploitfixer' },
+                                { slug: 'misc/falegamemode' },
                             ],
                         },
                         {
