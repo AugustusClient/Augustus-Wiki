@@ -71,6 +71,8 @@ export default defineConfig({
                                 { slug: 'misc/enderpearlnotify' },
                                 { slug: 'misc/exploitfixer' },
                                 { slug: 'misc/falegamemode' },
+                                { slug: 'misc/fixes' },
+                                { slug: 'misc/flagdetector' },
                             ],
                         },
                         {
