@@ -14,6 +14,22 @@ export default defineConfig({
                     label: 'Basic',
                     items: [
                         { slug: 'intro/packets'},
+                        {
+                            label: 'Transactions ',
+                            items: [
+                                { slug: 'intro/transaction'},
+                                {
+                                    label: 'AntiCheats ',
+                                    items: [
+                                        { slug: 'intro/aac'},
+                                        { slug: 'intro/grim'},
+                                        { slug: 'intro/intave'},
+                                        { slug: 'intro/matrix'},
+                                        { slug: 'intro/ncp'},
+                                    ],
+                                },
+                            ],
+                        },
                     ],
                 },
                 {
