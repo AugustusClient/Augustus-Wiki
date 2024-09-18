@@ -10,7 +10,7 @@ description: Please, DONT Enable this.
     <span>Caution</span>
   </div>
   <div>
-    Very annoying, Nuff said.
+    Very annoying.
   </div>
 </div>
 
