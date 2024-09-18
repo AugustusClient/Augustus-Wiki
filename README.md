@@ -1,5 +1,5 @@
 # Augustus Wiki
-The Unoffical Augustus client wiki! This was written and hosted by Muffinmaker by ZDibLO ❤️
+The Unoffical Augustus client wiki! This was written and hosted by Muffinmaker and ZDibLO ❤️
 
 ## Augustus Public Discord
 Augustus Community DC: http://discord.electriclauncher.de/ 
