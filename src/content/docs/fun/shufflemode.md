@@ -1,6 +1,6 @@
 ---
 title: ShuffleMode
-description: Crazy Crazy Crazy
+description: Please, DONT Enable this.
 ---
 
-ShuffleMode lets you shuffle around movement packets making it a Intave Movement Disabler
+Shufflemode just makes everything ugly and plays loud music, so i dont recommend enabling it.
