@@ -26,6 +26,7 @@ export default defineConfig({
                                         { slug: 'intro/intave'},
                                         { slug: 'intro/matrix'},
                                         { slug: 'intro/ncp'},
+                                        { slug: 'intro/atomic'},
                                     ],
                                 },
                             ],
