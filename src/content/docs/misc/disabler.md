@@ -9,7 +9,7 @@ Disabler is a very intersting Module in Augustus. The Disabler can manipulate al
     <span>Caution</span>
   </div>
   <div>
-    Very Strong Module that can break the Game if not used correctly!!! you have been warned!!!
+    Dont use if you dont know what you are doing
   </div>
 </div>
 
