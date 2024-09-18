@@ -30,7 +30,7 @@ You can do that by making a direct Pull Request with the Page and description of
 
 ### Completion Percentages
 
-Combat: 0%
+Combat: 15%
 
 Legit: 0%
 
@@ -42,7 +42,7 @@ Render: 0%
 
 World: 0%
 
-Misc: 0%
+Misc: 80-100%
 
 Fun: 100%
 
