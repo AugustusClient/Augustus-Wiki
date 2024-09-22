@@ -29,6 +29,7 @@ export default defineConfig({
                                         { slug: 'intro/spartan'},
                                         { slug: 'intro/verus'},
                                         { slug: 'intro/vulcan'},
+                                        { slug: 'intro/atomic'},
                                     ],
                                 },
                             ],
