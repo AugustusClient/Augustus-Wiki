@@ -2,6 +2,7 @@
 title: Intave
 ---
 ## Anticheat Notes
+- Intave is a popular simulation anticheat
 - Intave is used by servers like MCCentral / Herobrine.org / universocraft / Gamster.
 
 ## How to detect

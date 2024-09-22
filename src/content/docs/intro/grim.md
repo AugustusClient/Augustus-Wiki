@@ -5,6 +5,7 @@ title: Grim
 
 ## Anticheat Notes
 - Grim is open source. [See Here](https://github.com/MWHunter/Grim)
+- Grim is a open Source simulation anticheat similar to Intave
 
 ## How to detect
 - First transaction will be 0

@@ -15,11 +15,12 @@ export default defineConfig({
                     items: [
                         { slug: 'intro/packets'},
                         {
-                            label: 'Transactions ',
+                            label: 'AntiCheats ',
                             items: [
                                 { slug: 'intro/transaction'},
+                                { slug: 'intro/basicinfooverac'},
                                 {
-                                    label: 'AntiCheats ',
+                                    label: 'AntiCheat List ',
                                     items: [
                                         { slug: 'intro/aac'},
                                         { slug: 'intro/grim'},
