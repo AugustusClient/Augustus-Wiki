@@ -2,6 +2,7 @@ import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 
 export default defineConfig({
+    site: 'https://augustusclient.github.io/Augustus-Wiki/', 
     integrations: [
         starlight({
             title: 'Augustus Wiki',
