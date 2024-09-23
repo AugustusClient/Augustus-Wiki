@@ -1,9 +1,6 @@
 ---
 title: Basic info about Anticheats
 ---
-Ah, I see! You’re asking about the **types of anti-cheat detection methods** (or "variants") used in Minecraft. These methods are the **core techniques** that anti-cheat plugins or systems use to detect various forms of cheating. The most common ones include **simulation-based detection**, **packet-based detection**, and **tick-based detection**, among others.
-
-Let me explain these in more detail:
 
 ### 1. **Simulation-Based Detection**
 In this method, the server essentially tries to **simulate** what should have happened based on the player’s current state and environment. By comparing the player’s actions with what the game physics and rules dictate, the server can catch discrepancies that indicate cheating.
