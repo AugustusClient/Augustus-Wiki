@@ -18,7 +18,7 @@ Augustus Client is designed to aid in Minecraft PVP (player vs. player) combat, 
 ## More information
 This Wiki is a Augustus Community efford so everyone can contribute Additions or corrections via the Issue Page
 
-[Check out the wiki page here](https://augustus-wiki.vercel.app/)
+[Check out the wiki page here](https://augustusclient.github.io/Augustus-Wiki/)
 
 [Alternate Wiki Hosted by ZDibLO if Main Wiki goes down](https://augiwiki.zdiblo.lol/)
 
