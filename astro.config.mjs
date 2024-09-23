@@ -3,7 +3,7 @@ import starlight from '@astrojs/starlight';
 
 export default defineConfig({
     site: 'https://augustusclient.github.io/Augustus-Wiki/',
-    base: '/AugustusClient/Augustus-Wiki'
+    base: '/AugustusClient/Augustus-Wiki',
     integrations: [
         starlight({
             title: 'Augustus Wiki',
