@@ -136,5 +136,3 @@ This method focuses on detecting illegal or unusual **command usage** or **inter
 - **Statistical/Heuristic Detection:** Uses data analysis and patterns to find unusual behavior over time.
 - **Hitbox/Bounding Box Detection:** Detects irregularities in how a player interacts with hitboxes (useful for PvP).
 - **Command/Interaction-Based Detection:** Focuses on suspicious world interaction or command use.
-
-Each method has its strengths and weaknesses, and many modern anti-cheat plugins combine several of these techniques to create a robust system.
