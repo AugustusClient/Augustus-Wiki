@@ -50,7 +50,7 @@ Fun: 100%
 
 ZDibLO: Helped me setup this GitHub repository and Hosting Backup Wiki
 
-brett: Showed me how to setup Vercel (for hosting the actual wiki page)
+brett: Showed me how to setup Vercel (for hosting the first wiki page)
 
 AciditySoft: Made the first Pull Request to Update something in the Wiki
 
