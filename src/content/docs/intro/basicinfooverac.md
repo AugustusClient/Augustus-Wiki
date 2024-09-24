@@ -1,5 +1,5 @@
 ---
-title: Basic info about Anticheats
+title: Minecraft Anticheats 101
 ---
 
 ### 1. **Simulation-Based Detection**

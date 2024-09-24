@@ -12,6 +12,7 @@ export default defineConfig({
                 maxHeadingLevel: 6,
             },
             sidebar: [
+                { slug: 'intro/welcome'},
                 {
                     label: 'Basic',
                     items: [
@@ -19,8 +20,8 @@ export default defineConfig({
                         {
                             label: 'AntiCheats ',
                             items: [
-                                { slug: 'intro/transaction'},
                                 { slug: 'intro/basicinfooverac'},
+                                { slug: 'intro/transaction'},
                                 {
                                     label: 'AntiCheat List ',
                                     items: [
@@ -99,6 +100,7 @@ export default defineConfig({
                                 { slug: 'misc/falegamemode' },
                                 { slug: 'misc/fixes' },
                                 { slug: 'misc/flagdetector' },
+                                { slug: 'misc/irc'},
                             ],
                         },
                         {
