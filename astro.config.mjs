@@ -101,6 +101,7 @@ export default defineConfig({
                                 { slug: 'misc/fixes' },
                                 { slug: 'misc/flagdetector' },
                                 { slug: 'misc/irc'},
+                                { slug: 'misc/ircchat'},
                             ],
                         },
                         {
