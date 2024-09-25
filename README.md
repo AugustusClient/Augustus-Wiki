@@ -1,5 +1,5 @@
 # Augustus Wiki
-The Unoffical Augustus client wiki! This was written and hosted by Muffinmaker and ZDibLO ❤️
+The Unoffical Augustus client wiki! This was written and hosted by Muffinmaker
 
 ## Augustus Public Discord
 Augustus Community DC: http://discord.electriclauncher.de/ 
@@ -19,8 +19,6 @@ Augustus Client is designed to aid in Minecraft PVP (player vs. player) combat, 
 This Wiki is a Augustus Community efford so everyone can contribute Additions or corrections via the Issue Page
 
 [Check out the wiki page here](https://augustusclient.github.io/Augustus-Wiki/)
-
-[Alternate Wiki Hosted by ZDibLO if Main Wiki goes down](https://augiwiki.zdiblo.lol/)
 
 [Wiki Alternative Link (if it is down)](https://github.com/Muffinmaker2/Augustus-Wiki/tree/master/src/content/docs)
 
