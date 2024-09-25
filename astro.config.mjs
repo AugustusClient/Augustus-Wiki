@@ -102,6 +102,10 @@ export default defineConfig({
                                 { slug: 'misc/flagdetector' },
                                 { slug: 'misc/irc'},
                                 { slug: 'misc/ircchat'},
+                                { slug: 'misc/midclick'},
+                                { slug: 'misc/murderfinder'},
+                                { slug: 'misc/nodiscordrpc'},
+                                { slug: 'misc/openauthmod'},
                             ],
                         },
                         {
