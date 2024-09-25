@@ -44,7 +44,7 @@ Misc: 0%
 
 Fun: 100%
 
-### Contributors and Helpers:
+### Thanks to:
 
 ZDibLO: Helped me setup this GitHub repository and Hosting Backup Wiki
 
