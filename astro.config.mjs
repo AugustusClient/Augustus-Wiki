@@ -17,6 +17,7 @@ export default defineConfig({
                     label: 'Basic',
                     items: [
                         { slug: 'intro/packets'},
+                        { slug: 'intro/commands'},
                         {
                             label: 'AntiCheats ',
                             items: [
@@ -106,6 +107,8 @@ export default defineConfig({
                                 { slug: 'misc/murderfinder'},
                                 { slug: 'misc/nodiscordrpc'},
                                 { slug: 'misc/openauthmod'},
+                                { slug: 'misc/panic'},
+                                
                             ],
                         },
                         {
