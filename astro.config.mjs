@@ -108,7 +108,9 @@ export default defineConfig({
                                 { slug: 'misc/nodiscordrpc'},
                                 { slug: 'misc/openauthmod'},
                                 { slug: 'misc/panic'},
-                                
+                                { slug: 'misc/protocolversion'},
+                                { slug: 'misc/radio'},
+                                { slug: 'misc/rotationhandler'},
                             ],
                         },
                         {
