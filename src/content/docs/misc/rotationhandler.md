@@ -41,4 +41,3 @@ Will set the min vertical speed for the back rotation(left to right)
 
 #### MaxPitchSpeed
 Will set the max vertical speed for the back rotation(left to right)
-

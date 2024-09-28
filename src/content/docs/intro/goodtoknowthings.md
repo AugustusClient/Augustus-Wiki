@@ -3,8 +3,11 @@ title: Good to know things
 ---
 This page will list terminology that is used in Augustus and appears multiple times inside the client
 
-## MoveFix
-TL;DR Movefix makes you not flag on Simulated Anticheats like Polar/Intave/Grim/Karhu for Simulation.
+## Rotation
+A rotation is any kind of movement your player figure can do on its own axis. Meaning turning around is countet as a rotation, looking up also. Pretty much anything that makes your player figure "rotate" around is counted as a rotation
 
-Movefix applies your player's yaw/horizontal rotation to minecraft's movement processor so your player movement is correct with simulation on Simulated Anticheats like Polar/Intave/Grim/Karhu.
-(explanation might be changed in the future)
+<img src="https://i.imgur.com/5unT0VM.png" alt="Imgur Image">
+
+The y-rotation referses to turning left,right,behind and front
+
+The x-rotation referses to turning up and down

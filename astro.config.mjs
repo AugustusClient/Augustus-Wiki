@@ -17,6 +17,7 @@ export default defineConfig({
                     label: 'Basic',
                     items: [
                         { slug: 'intro/packets'},
+                        { slug: 'intro/goodtoknowthings'},
                         { slug: 'intro/commands'},
                         {
                             label: 'AntiCheats ',

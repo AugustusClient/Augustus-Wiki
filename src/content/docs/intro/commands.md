@@ -76,3 +76,12 @@ Will let you clip up and down through walls(like noclip but only on the y axis).
 ## .hclip
 Will let you clip forward or sideways through walls(like noclip but only on x and z axis). Use negative numbers to go into the opposit direction
 - Example: .hclip 3 5(the first value is for x axis and the second one is for the z axis)
+
+## .customskin [set], [get]
+.customskin lets you set the customskin in the CustomSkin module with the name of any minecraft player, then the client will search the user name and use the current skin that is used with that username
+
+Will set the customskin
+- Example: .customskin set AugustusWiki
+
+Will let you see the current name that is used for the customskin and will print that information into the chat
+- Example: .customskin get
