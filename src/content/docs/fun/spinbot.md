@@ -9,7 +9,7 @@ Makes your Character spin like CSGO Spinbot
 Makes your movement same as on the Serverside, where your Player will look he will go. Because your Player is Spinning and looking onto the ground enabling this will make your movement scuffed and all hit and place actions will only go down on the ground
 
 ### Settings
-This Settings tell make the Spinbot stop under named Conditions¦
+Settings are listed under
 
 #### StopSpinningON
 
