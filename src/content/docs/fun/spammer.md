@@ -3,7 +3,7 @@ title: Spammer
 description: Spamms chat
 ---
 
-Spammer spams Augustus on Top! into the Chat with diffrent Modes
+Spammer spams Augustus on Top! into the Chat with different Modes
 
 ## Settings
 Here you can configure the Module
