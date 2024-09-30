@@ -2,38 +2,38 @@
 title: KillMessage
 description: Like CSGO Killsay
 ---
-KillMessage will send a very Message you can set after you kill anyone
+KillMessage send a custom message or default message after killing someone
 
 #### Irrelevant
 
-Send a Message when you Kill the Enemy or when you get killed
+Send a Message when you kill an enemy or when you get killed
 
 #### YourFirst
-Sends a Message when Enemy Kills you
+Sends a message when an enemy kills you
 
 #### OpponentFirst
-Send a Message when you Kill the Enemy
+Send a message when you kill an enemy
 
 #### Augustus
-Sends this Message: \[Person who was Killed\] killed by Augustus! Learn to cheat Autoclicker User
+Sends this message: \[Person who was Killed\] killed by Augustus! Learn to cheat Autoclicker User
 
 #### L
-Sends this Message: L \[Person who was Killed\]
+Sends this message: L \[Person who was Killed\]
 
 #### GG
-Sends this Message: GG \[Person who was Killed\]
+Sends this message: GG \[Person who was Killed\]
 
 #### GG ac
-Sends this Message: gg ac \[Person who was Killed\]
+Sends this message: gg ac \[Person who was Killed\]
 
 #### Hahaha
-Sends this Message: hahahahahaha \[Person who was Killed\]
+Sends this message: hahahahahaha \[Person who was Killed\]
 
 #### Spectate
 Sends this message: Wie ist es so zu spectaten \[Person who was killed\]?
 
 #### Custom
-Sends a Custom Message that can be set with: .KillMessage Message you wanna see
+Sends a Custom message that can be set with: .KillMessage Message you wanna see
 
 #### MinDelay
 Sets how many MS it takes to send the KillMessage after killing/being Killed
