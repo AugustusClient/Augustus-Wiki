@@ -35,7 +35,7 @@ Range defines from how far you can hit someone. When the criteria is meet then c
 
 > *Simple*: Simply checks distance to player and compares with Range value. 
 
-> *HazeRange*: Not sure at the moment what it does. 
+> *HazeRange*: Will increase reach while comboing your opponent by {HazeAdd} until {HazeMax}. 
 
 > *Grim*: This mode is broken right now and causes Killaura to not attack at all. 
 
@@ -77,15 +77,15 @@ It determines killaura's aiming point.
 
 > Head: This mode will look at enemy's head. Most of client's use this method and may make your killaura more detectable, very basic and not recommended.
 
-> BestHitVec: BestHitVec will look at enemy even if very small part of its hitbox is visible. It even is capable of hitting player from small hole. If NearestHitVec would hit will use it instead. Recommended.
+> BestHitVec: BestHitVec will target the closest part of enemy's hitbox, giving you the biggest advantage. Recommended.
 
-> NearestHitVec: Will clamp player's eye position in enemy's hitbox and look at it from eye's perspective. That is nearest possible point that player can look at enemy. Not that bad but BestHitVec is simply better.
+> NearestHitVec: Will aim at the closest point to the player's cursor on the enemy's hitbox, then adjusting the aiming point only if the target no longer falls under the killaura's vector. Not that bad but BestHitVec is simply better.
 
 Just set this to BestHitVec, no point at selecting other modes.
 
 #### HitBoxPercentage Vertical/Horizontal
 
-Defines percentage of hitbox on which NearestHitVec rotations would be clamped. Towards center of hitbox.
+Defines percentage of hitbox on which rotations would be clamped. Towards center of hitbox.
 
 
 ## Randomize
@@ -155,11 +155,11 @@ Tracking is very usefull, it improves aiming speed. Tracking works by predicting
 
 ### SmartAim
 
-Probably improves something in aiming, unknown functionality, probably enable.
+Improves killaura by aiming at small parts of target's hitbox, e.g. if half of the hitbox is behind a block, the client will aim at the visible part.
 
 ### SmartAimEntityCheck
 
-Probably improves something in SmartAim byt hitchecking entity, unknown functionality, probably disable.
+An addition to SmartAim. Checks if there is any entity between you and killaura's target, and if true, will attempt to attack target without attacking entity.
 
 ### AdvancedRots
 
