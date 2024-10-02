@@ -92,6 +92,9 @@ export default defineConfig({
                                 { slug: 'render/attackeffects' },
                                 { slug: 'render/barriers' },
                                 { slug: 'render/blockanimation' },
+                                { slug: 'render/blockesp' },
+                                { slug: 'render/blockoverlay' },
+                                { slug: 'render/blocktraceesp' },
                             ],
                         },
                         {
