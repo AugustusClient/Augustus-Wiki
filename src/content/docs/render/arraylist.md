@@ -21,6 +21,8 @@ Changes the suffix of the toggled modules
 
 <img src="https://i.imgur.com/Nqhgu8B.gif">
 
+To change the custom suffix for custom mode see the [.arraylistsuffix](https://augustusclient.github.io/Augustus-Wiki/intro/commands/#arraylistsuffix) command
+
 ### Casing 
 
 Changes how mudules are written in the arraylist
