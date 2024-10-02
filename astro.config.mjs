@@ -90,6 +90,8 @@ export default defineConfig({
                                 { slug: 'render/arrowhitbox' },
                                 { slug: 'render/aspectratio' },
                                 { slug: 'render/attackeffects' },
+                                { slug: 'render/barriers' },
+                                { slug: 'render/blockanimation' },
                             ],
                         },
                         {
