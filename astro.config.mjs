@@ -65,6 +65,7 @@ export default defineConfig({
                         {
                             label: 'Latency',
                             items: [
+                                { slug: 'latency/lagrange' }
                             ],
                         },  
                         {
