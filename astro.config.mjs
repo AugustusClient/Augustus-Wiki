@@ -80,17 +80,6 @@ export default defineConfig({
                         {
                             label: 'Render',
                             items: [
-                                { slug: 'render/2ditems' },
-                                { slug: 'render/ambiance' },
-                                { slug: 'render/antiblind' },
-                                { slug: 'render/antihurtcam' },
-                                { slug: 'render/antiinvisible' },
-                                { slug: 'render/antistrike' },
-                                { slug: 'render/arraylist' },
-                                { slug: 'render/arrowhitbox' },
-                                { slug: 'render/aspectratio' },
-                                { slug: 'render/attackeffects' },
-                                { slug: 'render/barriers' },
                             ],
                         },
                         {
