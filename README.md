@@ -23,7 +23,10 @@ This Wiki is a Augustus Community efford so everyone can contribute Additions or
 [Wiki Alternative Link (if it is down)](https://github.com/Muffinmaker2/Augustus-Wiki/tree/master/src/content/docs)
 
 ## You want to Contribute to the Wiki?
-You can do that by making a direct Pull Request with the Page and description of what you want to change or add if you know how or go [here](https://github.com/Muffinmaker2/Augustus-Wiki/issues/new/choose) to open a Issue
+You can do that by making a direct Pull Request with the Page and description of what you want to change or add if you know how or go [here](https://github.com/Muffinmaker2/Augustus-Wiki/issues/new/choose) to open a Issue.
+
+### If you want to PR
+If you want to make a PR please make sure it goes to the combine-pr branch not master. (hope you know how this works if you know how to PR in the first place)
 
 
 ### Completion Percentages
