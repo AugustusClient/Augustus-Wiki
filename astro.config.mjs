@@ -65,6 +65,7 @@ export default defineConfig({
                         {
                             label: 'Latency',
                             items: [
+                                { slug: 'latency/lagrange' }
                             ],
                         },  
                         {
@@ -136,6 +137,7 @@ export default defineConfig({
                                 { slug: 'misc/protocolversion'},
                                 { slug: 'misc/radio'},
                                 { slug: 'misc/rotationhandler'},
+                                { slug: 'misc/staffdetector'},
                             ],
                         },
                         {
