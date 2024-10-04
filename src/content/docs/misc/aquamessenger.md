@@ -1,4 +1,4 @@
 ---
 title: AquaMessenger
 ---
-AquaMessenger enabled Communication between Augustus Users and AquaClient Users
+AquaMessenger enabled communication between Augustus users and AquaClient users

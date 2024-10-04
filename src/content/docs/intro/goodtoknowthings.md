@@ -11,3 +11,7 @@ A rotation is any kind of movement your player figure can do on its own axis. Me
 The y-rotation referses to turning left,right,behind and front
 
 The x-rotation referses to turning up and down
+
+
+## Min and Max
+Augustus has many options where you can select min and max for stuff. If the min and max value are not the same Augustus will take random values between those two.

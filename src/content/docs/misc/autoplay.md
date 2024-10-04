@@ -46,4 +46,4 @@ Makes you join Gamemodes on Gamster
 Makes the disables the Escape Menu making it possible to let AutoPlay run even when you Tab out the 
 
 ### HotBarItemID
-Lets you select the ID of an Item that triggers the Joining of a Game mode for Modules that are not for specific Servers
+Lets you select the ID of an Item that triggers the joining of a gamemode for modules that are not for specific servers

@@ -96,6 +96,15 @@ export default defineConfig({
                                 { slug: 'render/blockesp' },
                                 { slug: 'render/blockoverlay' },
                                 { slug: 'render/blocktraceesp' },
+                                { slug: 'render/blur' },
+                                { slug: 'render/breakindicator' },
+                                { slug: 'render/cameranoclip' },
+                                { slug: 'render/centredinventory' },
+                                { slug: 'render/chams' },
+                                { slug: 'render/chat' },
+                                { slug: 'render/child' },
+                                { slug: 'render/chinahat' },
+
                             ],
                         },
                         {
@@ -129,6 +138,7 @@ export default defineConfig({
                                 { slug: 'misc/radio'},
                                 { slug: 'misc/rotationhandler'},
                                 { slug: 'misc/staffdetector'},
+                                { slug: 'misc/timermanipulation'},
                             ],
                         },
                         {
