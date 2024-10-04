@@ -10,7 +10,7 @@ Will trigger AutoDisable when you get teleported a set amount if blocks
 Lets you set the distance of blocks for Disable on Teleport
 
 ## Min teleport distance
-Sets the distance that a Teleport needs to trigger AutoDisable
+Sets the distance that a teleport needs to trigger AutoDisable
 
 ## Forcedisable modules for x ms
 Will force modules of by the defined time

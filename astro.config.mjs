@@ -138,6 +138,7 @@ export default defineConfig({
                                 { slug: 'misc/radio'},
                                 { slug: 'misc/rotationhandler'},
                                 { slug: 'misc/staffdetector'},
+                                { slug: 'misc/timermanipulation'},
                             ],
                         },
                         {

@@ -1,22 +1,22 @@
 ---
 title: AutoLeave
 ---
-AutoLeave makes you Leave either the Lobby you are currently in or the whole Server under certain set conditions
+AutoLeave makes you Leave either the Lobby you are currently in or the whole server under certain set conditions
 
 ## CalculateWithHit
-CalculatesWithHit starts a Timer that resets everytime you get hit by someone, for example if you set the Timer to 5000ms the Client will auto leave after 5 seconds of not getting hit.
+CalculatesWithHit starts a timer that resets everytime you get hit by someone, for example if you set the timer to 5000ms the Client will auto leave after 5 seconds of not geting hit.
 
-### Time
-Lets you set the Time for CalculateWithHit in ms. 1000ms = 1 second
+### time
+Lets you set the time for CalculateWithHit in ms. 1000ms = 1 second
 
-###  DisplayTime:
-Displays Timer on your Screen, which is red when the Time set isnt met and turns green when the Time is reached
+###  displaytime:
+Displays a timer on your Screen, which is red when the time set isnt met and turns green when the time is reached
 
 ### X-Coord
-Sets the X Coord for the Displayed Timer which meens left and right
+Sets the X Coord for the displayed timer which meens left and right
 
 ### Y-Coord
-Sets the Y Coord for the Displayed Timer which means up and down
+Sets the Y Coord for the displayed timer which means up and down
 
 ## AutoLeave
 Enabled will leave the server if your hearts fall under the threshold set in hearts
@@ -31,12 +31,12 @@ Sets how AutoLeave and CalculateWithHit should work
 Puts /hub into Chat to leave the current lobby
 
 ### Server
-Leave the Server
+Leave the server
 
 ## LeaveOnKey
 Lets you set a Key if pressed makes you leave
 
-## LeaveOnDeath
+## LeaveOndeath
 Leaves when you die
 
 ## Key

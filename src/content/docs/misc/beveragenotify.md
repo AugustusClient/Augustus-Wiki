@@ -7,4 +7,4 @@ BeverageNotify tells you if someone is drinking a Potion
 Dont know atm
 
 ## Notify Delay
-Sets the Delay before it Notifys you that someone Drinks a Potion
+Sets the delay before it notifys you that someone drinks a potion
