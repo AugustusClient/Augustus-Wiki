@@ -12,6 +12,11 @@ Amout of ticks which is used to calculate when/where to lag
 ## Ticks
 Amout of ticks which you actually lag in the end
 
+Typical values:
+> **Intave**: Disabled or 2
+> **Polar**: 4 maybe 5
+> **Any Other AC**: 7 will work 
+
 ## Correct
 While lagging you pause sending outgoing packets. Correct will also pause your incoming packets which makes it 
 harder to detect for Anti-Cheats. This boolean is recommended on servers with Intave and Polar.
