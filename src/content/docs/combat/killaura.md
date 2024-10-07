@@ -108,27 +108,29 @@ This setting specifies which random distribution should be used.
 
 It specifies which randomization will get applied to player's rotation.
 
-* Modes Noise and Turbo remove Min/Max Pitch/Yaw Speed/Acceleration overriding basic rotation.
+* Modes Noise, Turbo and Noise2 remove Min/Max Pitch/Yaw Speed/Acceleration overriding basic rotation.
 
-> None: Dont apply any randomization.
+> **None**: Dont apply any randomization.
 
-> Basic: Randomly offsets aiming point by RandomStrength.
+> **Basic**: Randomly offsets aiming point by RandomStrength.
 
-> Doubled: Same as Basic but may be more <i><b>special</b></i>.
+> **Doubled**: Same as Basic but may be more <i><b>special</b></i>.
 
-> OnlyRotation: Works as Basic but only if player's head is rotating/aiming. If it already looks at aiming point it doesn't apply.
+> **OnlyRotation**: Works as Basic but only if player's head is rotating/aiming. If it already looks at aiming point it doesn't apply.
 
-> Hybrid: Unknown what it does.
+> **Hybrid**: Unknown what it does.
 
-> Polar: Weird mode of randomization that might be very good. Oscilates pitch in yaw axis from above enemy's head to below his feet.
+> **Polar**: Weird mode of randomization that might be very good. Oscilates pitch in yaw axis from above enemy's head to below his feet.
 
-> Circle: Rotates in circle around aiming point. Radius becomes larger the further player is from enemy.
+> **Circle**: Rotates in circle around aiming point. Radius becomes larger the further player is from enemy.
 
-> Advanced: More sophisticated randomization, has many diffrent settings that i am not going to explain, if you are willing to use this mode you should see how diffrent settings change this mode. It basicly jumps around points in area defined by Circles{R=Radius} and exclusive for Circle{R=InnerRadius}, with Absolute and Relative distance from current offset.
+> **Advanced**: More sophisticated randomization, has many diffrent settings that i am not going to explain, if you are willing to use this mode you should see how diffrent settings change this mode. It basicly jumps around points in area defined by Circles{R=Radius} and exclusive for Circle{R=InnerRadius}, with Absolute and Relative distance from current offset.
 
-> Noise: Vere randomly jumps around biased towards enemy. Overrides basic rotations and unpredictable. If you are willing to use this mode you should see how diffrent settings change this mode. Speed is how fast it will move, chances have weird/unexplained behaviour.
+> **Noise**: Randomly jumps around biased towards enemy. Overrides basic rotations and unpredictable. If you are willing to use this mode you should see how diffrent settings change this mode. Speed is how fast it will move, chances have weird/unexplained behaviour.
 
->Turbo: Mode made for IntaveAC with goal of improving basic rotations to work faster without getting detected. Designed for IntaveAC, but might be used for any anticheat
+> **Turbo**: Mode made for IntaveAC with goal of improving basic rotations to work faster without getting detected. Designed for IntaveAC, but might be used for any anticheat. Depracted, see Noise2 (below).
+
+> **Noise2**: Refresh of Noise rotation randomization with most humanly randomization. Made for IntaveAC and still undetected. Should work for every other anticheat including ones with better aim checks such as Polar, Matrix, Vulcan.
 
 #### Turbo
 
@@ -147,6 +149,50 @@ Not known at the moment what it does. Keep around 1 - 2.
 ##### Min/Max Target/Player Response
 
 Ticks of prediction for tracking, not sure why these settings doesn't exist outside Turbo mode. Keep around (2-3) - (3-5), higher values for slower rotations (depending on anticheat).
+
+#### Noise2
+
+Works Similarly to Noise but with a little more settings
+
+##### AimSpeed 
+
+Base speed of rotation.
+
+##### Deceleration Pre/Post
+
+Some kind of Deceleration that is applied to some phase After(Post) and Before(Post). This phase is possibly rotating too target / correcting.
+
+##### Min/Max Lookahead/Reaction
+
+Specifies Limits of ticks for Lookahead (look how many ticks in target's predicted future position) and how fast to react for target going off our center of view.
+
+##### Attention
+
+¯\\_(ツ)_/¯
+
+##### Min/Max prediction Innacuracy + Smoothness
+
+Limits of how much prediction should be randomly offset and Smoothness of it (smoothness to not ranomly jiggle your cursor).
+
+##### SuperCorrection
+
+Random Correction of cursor to target, Min/Max delay beetwen corrections, Probability of it happenning and Additional Accuracy (no idea).
+
+##### RotationOffset
+
+Offset of target center to provide slight human-like innacuracy.
+
+##### Additional Innacuracy
+
+Make rotations extra innacurate to provide slight human-like innacuracy.
+
+##### Orthogonal Scale / Aimpoint AngleDiff / HitVec Pitch Interpolation / Min/Max Rotation On Target / No Pitch/Yaw adjustment if bla bla bla / Ultimate TrashCode Bypas????? / Adapt Curve if Needed
+
+Thanks god Esound is in repository maybe he will explain what the hell these do. Just try diffrent values and find which work the best.
+
+##### Apply recorded mouse jitter
+
+If Using Recorded Clicking jitter data might be store to be used there
 
 ### Tracking Accuracy/Randomization
 
