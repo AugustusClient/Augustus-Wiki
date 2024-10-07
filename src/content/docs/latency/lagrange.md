@@ -1,5 +1,5 @@
 ---
-title: Lagrange
+title: LagRange
 description: Tickbase / Client side lag for advantage
 ---
 
