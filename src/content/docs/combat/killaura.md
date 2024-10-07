@@ -13,7 +13,7 @@ description: Attacks enemies
   </div>
 </div>
 
-Killaura is one of most important module in cheating. Killaura will automaticly aim at your enemy and attack. This module is essential to gain advantage over enemies. You may gain advantage by having greater reach, faster aim, better cps, autoblock or by ommiting some minecraft mechanics such as sprint-reset/reduction or attacking enemy through wall.
+KillAura is a module in many different clients that is made to automatically aim and artack enemies for you. On Augustus, this module is extremelt customizable, as you can set it to work however tou want it to.
 
 # Range
 
@@ -21,8 +21,7 @@ Range is one of most easiest sections of killaura to configure.
 
 #### Min/Max PreAimRange
 
-This setting defines when client should start aiming at enemy. It wont start attacking tho.
-Min is when to start and Max when to stop.
+These two settigs define at minimum and maximum aim range. When you are between the minimum and maximum values in terms of distance grom an enemy, KillAura will start aiming.
 
 #### Range
 
@@ -45,7 +44,7 @@ Range defines from how far you can hit someone. When the criteria is meet then c
 
 # Rotations
 
-Rotations are very tricky to configure but are essential for not getting banned. Badly configured rotations can be detected if they act unhuman. Thats why this section is very detailed and has many diffrent setting to set. 
+The settings in this section are the hardest to configure, as there are a lot of things you can customize. It is essential that you set up these correctly where you don't flag.
 
 #### Yaw/Pitch Fov
 
