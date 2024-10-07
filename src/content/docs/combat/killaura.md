@@ -21,7 +21,7 @@ Range is one of most easiest sections of killaura to configure.
 
 #### Min/Max PreAimRange
 
-These two settigs define at minimum and maximum aim range. When you are between the minimum and maximum values in terms of distance grom an enemy, KillAura will start aiming.
+These two settings define a minimum and maximum aim range for KillAura. When you are between the minimum and maximum values in terms of distance from an enemy, KillAura will start aiming.
 
 #### Range
 
@@ -47,10 +47,9 @@ Range defines from how far you can hit someone. When the criteria is meet then c
 The settings in this section are the hardest to configure, as there are a lot of things you can customize. It is essential that you set up these correctly where you don't flag.
 
 #### Yaw/Pitch Fov
+The FOV settings change how far away your mouse have to be before KillAura starts to aim and attack automatically.
 
-This setting makes killaura not attack enemies that are far from you camera.
-
-It takes diffrence from your rotation to angle of enemy. Then it compares Pitch/Vertical and Yaw/Horizontal diffrence in deegres. This setting is usefull if you dont want killaura to attack players you dont even see. It also makes it not very rapidly rotate to enemy.
+For those wondering: Yaw is the horizontal distance, while Pitch is the vertical distance.
 
 ### Min/Max Pitch/Yaw Speed/Acceleration
 
