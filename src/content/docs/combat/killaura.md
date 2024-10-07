@@ -257,6 +257,48 @@ Describes how many clicks per second killaura can achive.
 
 > **Recorded**: Will use pattern described in file. Can use MS Delay or Tick Delay. _/Air Multiplier that makes delay beetwen clicks larger.
 
+> **Smart**: Uses SmartClicking and adds a lot of settings on top of it.
+
+#### Smart ClickMode
+
+##### Mode
+
+> **Recommended** Gives you *On Target*.
+
+> **Overengineered** Gives you *Hurttime n* from n 0 to 1.
+
+##### Double| ClickMode
+
+Esound will explain in future.
+
+##### ConditionCPS
+
+There are 5 main conditions which are:
+
+> **On First Hit** Met when firsthitting target.
+
+> **On Wall** Met when you are hitting a wall.
+
+> **On Air** Met when raycast missed and hit nothing.
+
+*Recommended*:
+
+> **On Target** Met when raycast hit an entity which is your target, if its not your target it fallbacks to *On Air*.
+
+*Overengineered*:
+
+> **Hurttime n** Met when raycast hit target and hurttime of it is equal to n.
+
+##### Min/Max & NotInARow | CPS / CPSRecalculateTickDelay / DCPS / DCPSRecalculateTickDelay
+
+Min/Max -> Lower / Upper bounds of limit:
+
+Cps -> Clicks Per Second
+DCPS -> Delta (diffrence beetwen each CPS) Clicks Per Second
+NotInARow -> Will get another random if value is the same as last
+RecalculateTickDelay -> Will use Same CPS until Recalculation happens which gets you new value. Happens every RecalculateTickDelay Ticks
+
+
 ### Interactions
 
 You can find there packet based interactions of attacking/blocking.
