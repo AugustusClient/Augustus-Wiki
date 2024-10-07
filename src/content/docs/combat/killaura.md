@@ -247,7 +247,15 @@ Basicly attacking. Autoblocks, perfecthit, cps settings, reduction, 1.9+ timings
 
 Describes how many clicks per second killaura can achive.
 
-* This section is to be added in future.
+#### ClickMode
+
+> **Basic**: Basic delay beetween each click in MS Min/Max Delay.
+
+> **Deviation**: Basic cps Min/Max CPS, Can DoubleClick? and Multiplier of cps when player is not on ground.
+
+> **Simple**: Deviation with Recalculate Delay basicly will randomize cps and use for next Min/Max Cps Recalculate Delay, no idea what Click Duty Cycle does set to 0.35 - 0.65 (default). There also is Extra Double Click Randomize, i dont have to explain what it does.
+
+> **Recorded**: Will use pattern described in file. Can use MS Delay or Tick Delay. _/Air Multiplier that makes delay beetwen clicks larger.
 
 ### Interactions
 
@@ -257,11 +265,11 @@ You can find there packet based interactions of attacking/blocking.
 
 How killaura will attack
 
-> Legit: Will invoke clickMouse() function in minecraft code.
+> **Legit**: Will invoke clickMouse() function in minecraft code.
 
-> Packet: Instead of asking minecraft to attack, sends packet C02PacketUseEntity with action ATTACK and entity your target.
+> **Packet**: Instead of asking minecraft to attack, sends packet C02PacketUseEntity with action ATTACK and entity your target.
 
-> Multi: Will attack multiple entities in one tick. Switch killaura is way less undetected. This won't work on 90% of anticheats. Not worth to use anyway, switch killaura is almost the same.
+> **Multi**: Will attack multiple entities in one tick. Switch killaura is way less undetected. This won't work on 90% of anticheats. Not worth to use anyway, switch killaura is almost the same.
 
 #### BlockMode
 
