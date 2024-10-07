@@ -3,7 +3,7 @@ title: Killaura
 description: Attacks enemies
 ---
 
-<div style="border-left: 3px solid #EEBD53; background-color: #5C4C29; padding: 10px 15px; color: #F4E6C5; font-family: Arial, sans-serif; font-size: 14px; max-width: 600px; border-radius: 8px; box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);">
+<!-- <div style="border-left: 3px solid #EEBD53; background-color: #5C4C29; padding: 10px 15px; color: #F4E6C5; font-family: Arial, sans-serif; font-size: 14px; max-width: 600px; border-radius: 8px; box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);">
   <div style="display: flex; align-items: center; font-weight: bold; margin-bottom: 1px;">
     <span style="font-size: 20px; margin-right: 10px;">&#9888;</span>
     <span>Information</span>
@@ -11,7 +11,7 @@ description: Attacks enemies
   <div>
     This document is in version in progress.
   </div>
-</div>
+</div> -->
 
 Killaura is one of most important module in cheating. Killaura will automaticly aim at your enemy and attack. This module is essential to gain advantage over enemies. You may gain advantage by having greater reach, faster aim, better cps, autoblock or by ommiting some minecraft mechanics such as sprint-reset/reduction or attacking enemy through wall.
 
