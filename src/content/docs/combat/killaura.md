@@ -301,6 +301,32 @@ There are 5 main conditions which are:
 
 > **RecalculateTickDelay**: Will use Same CPS until Recalculation happens which gets you new value. Happens every RecalculateTickDelay Ticks
 
+#### Advanced ClickMode
+
+##### Min/Max Cps/Delay
+
+*Min*/*Max* Random Values for *Cps* / *Delay* values.
+
+##### Spikes/Drops
+
+> **Delay**: Delay beetwen each *spike*/*drop*.
+
+> **Min/Max Duration**: Duration of each *spike*/*drop*.
+
+> **Multi**: Cps Multiplier and Delay Divisor for *spike*/*drop*.
+
+##### Reduce InAir / OnWall
+
+> **Min/Max Multiplier**: Cps Multiplier and Delay Divisor for reduction.
+
+> **Min/Max Recalculate Delay**: Recalculate Delay for each Multiplier.
+
+##### Hurttimes to hit n
+
+Toggle for each Hurttime n to attack on
+
+
+
 
 ### Interactions
 
