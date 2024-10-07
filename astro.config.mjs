@@ -60,6 +60,7 @@ export default defineConfig({
                         {
                             label: 'Legit',
                             items: [
+                                { slug: 'legit/smartclick' }
                             ],
                         },
                         {
