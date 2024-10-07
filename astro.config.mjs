@@ -60,6 +60,7 @@ export default defineConfig({
                         {
                             label: 'Legit',
                             items: [
+                                { slug: 'legit/smartclick' }
                             ],
                         },
                         {
@@ -67,7 +68,13 @@ export default defineConfig({
                             items: [
                                 { slug: 'latency/lagrange' }
                             ],
-                        },  
+                        }, 
+                        {
+                            label: 'Movement',
+                            items: [
+                                { slug: 'movement/motionmod' }
+                            ],
+                        },   
                         {
                             label: 'Movement',
                             items: [

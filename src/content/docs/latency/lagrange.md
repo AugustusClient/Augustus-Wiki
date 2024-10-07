@@ -1,27 +1,21 @@
 ---
-title: Lagrange
+title: LagRange
+description: Tickbase / Client side lag for advantage
 ---
+
 Lagrange is a module similar to Timerrange and TimerrangeV2.
-It let's you lag clientside and serverside at the perfect time to combo your opponents.
-Originally Joseph-Louis Lagrange was born in 1736.
-He was known for his contributions to mechanics, number theory and calculus.
-He is particularly recognized for Lagrangian mechanics, a reformulation of classical
-mechanics that emphasizes energy rather than forces, and for the Lagrange interpolation
-polynomial in numerical analysis. His work laid the groundwork for modern physics and mathematics,
-influencing future developments in various fields.
-Lagrangian mechanics simplifies the analysis of dynamic systems by using the
-principle of least action, which states that the path taken by a system between
-two states is the one that minimizes the action, a quantity derived from the system's
-kinetic and potential energies. This approach allows for more straightforward solutions
-to complex problems, especially in systems with constraints. Additionally, his
-interpolation polynomial helps estimate values between known data points, crucial
-for numerical methods and data analysis.
+If will give advantage, will freeze for couple of ticks and release these ticks so you can 1. HitBug 2. Deffer getting attacked
 
 ## PredictTicks
 Amout of ticks which is used to calculate when/where to lag
 
 ## Ticks
 Amout of ticks which you actually lag in the end
+
+Typical values:
+> **Intave**: Disabled or 2
+> **Polar**: 4 maybe 5
+> **Any Other AC**: 7 will work 
 
 ## Correct
 While lagging you pause sending outgoing packets. Correct will also pause your incoming packets which makes it 
@@ -58,3 +52,19 @@ Recommended: Slightly above your reach.
 For example:
 Reach: 3.0
 Then set ur PreAimRange to 3.1
+
+### Lagrange
+
+Originally Joseph-Louis Lagrange was born in 1736.
+He was known for his contributions to mechanics, number theory and calculus.
+He is particularly recognized for Lagrangian mechanics, a reformulation of classical
+mechanics that emphasizes energy rather than forces, and for the Lagrange interpolation
+polynomial in numerical analysis. His work laid the groundwork for modern physics and mathematics,
+influencing future developments in various fields.
+Lagrangian mechanics simplifies the analysis of dynamic systems by using the
+principle of least action, which states that the path taken by a system between
+two states is the one that minimizes the action, a quantity derived from the system's
+kinetic and potential energies. This approach allows for more straightforward solutions
+to complex problems, especially in systems with constraints. Additionally, his
+interpolation polynomial helps estimate values between known data points, crucial
+for numerical methods and data analysis.
