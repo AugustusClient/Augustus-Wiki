@@ -13,8 +13,11 @@ Amout of ticks which is used to calculate when/where to lag
 Amout of ticks which you actually lag in the end
 
 Typical values:
+
 > **Intave**: Disabled or 2
+
 > **Polar**: 4 maybe 5
+
 > **Any Other AC**: 7 will work 
 
 ## Correct
@@ -23,7 +26,9 @@ harder to detect for Anti-Cheats. This boolean is recommended on servers with In
 
 ## OnlyOnGround
 Whith OnlyOnGroud on true, the module will only work on ground. 
+
 This setting does not seem to make sense in the first place, but for some reason it bypasses better on MineMenClub (AntiGamingChair)
+
 It's recommended to keep this setting on false execpt for MineMenClub
 
 ## Stop
