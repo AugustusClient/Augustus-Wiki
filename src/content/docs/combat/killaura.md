@@ -3,7 +3,7 @@ title: Killaura
 description: Attacks enemies
 ---
 
-<div style="border-left: 3px solid #EEBD53; background-color: #5C4C29; padding: 10px 15px; color: #F4E6C5; font-family: Arial, sans-serif; font-size: 14px; max-width: 600px; border-radius: 8px; box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);">
+<!-- <div style="border-left: 3px solid #EEBD53; background-color: #5C4C29; padding: 10px 15px; color: #F4E6C5; font-family: Arial, sans-serif; font-size: 14px; max-width: 600px; border-radius: 8px; box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);">
   <div style="display: flex; align-items: center; font-weight: bold; margin-bottom: 1px;">
     <span style="font-size: 20px; margin-right: 10px;">&#9888;</span>
     <span>Information</span>
@@ -11,7 +11,7 @@ description: Attacks enemies
   <div>
     This document is in version in progress.
   </div>
-</div>
+</div> -->
 
 Killaura is one of most important module in cheating. Killaura will automaticly aim at your enemy and attack. This module is essential to gain advantage over enemies. You may gain advantage by having greater reach, faster aim, better cps, autoblock or by ommiting some minecraft mechanics such as sprint-reset/reduction or attacking enemy through wall.
 
@@ -108,27 +108,29 @@ This setting specifies which random distribution should be used.
 
 It specifies which randomization will get applied to player's rotation.
 
-* Modes Noise and Turbo remove Min/Max Pitch/Yaw Speed/Acceleration overriding basic rotation.
+* Modes Noise, Turbo and Noise2 remove Min/Max Pitch/Yaw Speed/Acceleration overriding basic rotation.
 
-> None: Dont apply any randomization.
+> **None**: Dont apply any randomization.
 
-> Basic: Randomly offsets aiming point by RandomStrength.
+> **Basic**: Randomly offsets aiming point by RandomStrength.
 
-> Doubled: Same as Basic but may be more <i><b>special</b></i>.
+> **Doubled**: Same as Basic but may be more <i><b>special</b></i>.
 
-> OnlyRotation: Works as Basic but only if player's head is rotating/aiming. If it already looks at aiming point it doesn't apply.
+> **OnlyRotation**: Works as Basic but only if player's head is rotating/aiming. If it already looks at aiming point it doesn't apply.
 
-> Hybrid: Unknown what it does.
+> **Hybrid**: Unknown what it does.
 
-> Polar: Weird mode of randomization that might be very good. Oscilates pitch in yaw axis from above enemy's head to below his feet.
+> **Polar**: Weird mode of randomization that might be very good. Oscilates pitch in yaw axis from above enemy's head to below his feet.
 
-> Circle: Rotates in circle around aiming point. Radius becomes larger the further player is from enemy.
+> **Circle**: Rotates in circle around aiming point. Radius becomes larger the further player is from enemy.
 
-> Advanced: More sophisticated randomization, has many diffrent settings that i am not going to explain, if you are willing to use this mode you should see how diffrent settings change this mode. It basicly jumps around points in area defined by Circles{R=Radius} and exclusive for Circle{R=InnerRadius}, with Absolute and Relative distance from current offset.
+> **Advanced**: More sophisticated randomization, has many diffrent settings that i am not going to explain, if you are willing to use this mode you should see how diffrent settings change this mode. It basicly jumps around points in area defined by Circles{R=Radius} and exclusive for Circle{R=InnerRadius}, with Absolute and Relative distance from current offset.
 
-> Noise: Vere randomly jumps around biased towards enemy. Overrides basic rotations and unpredictable. If you are willing to use this mode you should see how diffrent settings change this mode. Speed is how fast it will move, chances have weird/unexplained behaviour.
+> **Noise**: Randomly jumps around biased towards enemy. Overrides basic rotations and unpredictable. If you are willing to use this mode you should see how diffrent settings change this mode. Speed is how fast it will move, chances have weird/unexplained behaviour.
 
->Turbo: Mode made for IntaveAC with goal of improving basic rotations to work faster without getting detected. Designed for IntaveAC, but might be used for any anticheat
+> **Turbo**: Mode made for IntaveAC with goal of improving basic rotations to work faster without getting detected. Designed for IntaveAC, but might be used for any anticheat. Depracted, see Noise2 (below).
+
+> **Noise2**: Refresh of Noise rotation randomization with most humanly randomization. Made for IntaveAC and still undetected. Should work for every other anticheat including ones with better aim checks such as Polar, Matrix, Vulcan.
 
 #### Turbo
 
@@ -147,6 +149,50 @@ Not known at the moment what it does. Keep around 1 - 2.
 ##### Min/Max Target/Player Response
 
 Ticks of prediction for tracking, not sure why these settings doesn't exist outside Turbo mode. Keep around (2-3) - (3-5), higher values for slower rotations (depending on anticheat).
+
+#### Noise2
+
+Works Similarly to Noise but with a little more settings
+
+##### AimSpeed 
+
+Base speed of rotation.
+
+##### Deceleration Pre/Post
+
+Some kind of Deceleration that is applied to some phase After(Post) and Before(Post). This phase is possibly rotating too target / correcting.
+
+##### Min/Max Lookahead/Reaction
+
+Specifies Limits of ticks for Lookahead (look how many ticks in target's predicted future position) and how fast to react for target going off our center of view.
+
+##### Attention
+
+¯\\_(ツ)_/¯
+
+##### Min/Max prediction Innacuracy + Smoothness
+
+Limits of how much prediction should be randomly offset and Smoothness of it (smoothness to not ranomly jiggle your cursor).
+
+##### SuperCorrection
+
+Random Correction of cursor to target, Min/Max delay beetwen corrections, Probability of it happenning and Additional Accuracy (no idea).
+
+##### RotationOffset
+
+Offset of target center to provide slight human-like innacuracy.
+
+##### Additional Innacuracy
+
+Make rotations extra innacurate to provide slight human-like innacuracy.
+
+##### Orthogonal Scale / Aimpoint AngleDiff / HitVec Pitch Interpolation / Min/Max Rotation On Target / No Pitch/Yaw adjustment if bla bla bla / Ultimate TrashCode Bypas????? / Adapt Curve if Needed
+
+Thanks god Esound is in repository maybe he will explain what the hell these do. Just try diffrent values and find which work the best.
+
+##### Apply recorded mouse jitter
+
+If Using Recorded Clicking jitter data might be store to be used there
 
 ### Tracking Accuracy/Randomization
 
@@ -201,7 +247,86 @@ Basicly attacking. Autoblocks, perfecthit, cps settings, reduction, 1.9+ timings
 
 Describes how many clicks per second killaura can achive.
 
-* This section is to be added in future.
+#### ClickMode
+
+> **Basic**: Basic delay beetween each click in MS Min/Max Delay.
+
+> **Deviation**: Basic cps Min/Max CPS, Can DoubleClick? and Multiplier of cps when player is not on ground.
+
+> **Simple**: Deviation with Recalculate Delay basicly will randomize cps and use for next Min/Max Cps Recalculate Delay, no idea what Click Duty Cycle does set to 0.35 - 0.65 (default). There also is Extra Double Click Randomize, i dont have to explain what it does.
+
+> **Recorded**: Will use pattern described in file. Can use MS Delay or Tick Delay. _/Air Multiplier that makes delay beetwen clicks larger.
+
+> **Smart**: Uses SmartClicking and adds a lot of settings on top of it.
+
+#### Smart ClickMode
+
+##### Mode
+
+> **Recommended**: Gives you *On Target*.
+
+> **Overengineered**: Gives you *Hurttime n* from n 0 to 1.
+
+##### Double| ClickMode
+
+Esound will explain in future.
+
+##### ConditionCPS
+
+There are 5 main conditions which are:
+
+> **On First Hit**: Met when firsthitting target.
+
+> **On Wall**: Met when you are hitting a wall.
+
+> **On Air**: Met when raycast missed and hit nothing.
+
+*Recommended*:
+
+> **On Target**: Met when raycast hit an entity which is your target, if its not your target it fallbacks to *On Air*.
+
+*Overengineered*:
+
+> **Hurttime n**: Met when raycast hit target and hurttime of it is equal to n.
+
+##### Min/Max & NotInARow | CPS / CPSRecalculateTickDelay / DCPS / DCPSRecalculateTickDelay
+
+> **Min/Max**: Lower / Upper bounds of limit:
+
+> **Cps**: Clicks Per Second
+
+> **DCPS**: Delta (diffrence beetwen each CPS) Clicks Per Second
+
+> **NotInARow**: Will get another random if value is the same as last
+
+> **RecalculateTickDelay**: Will use Same CPS until Recalculation happens which gets you new value. Happens every RecalculateTickDelay Ticks
+
+#### Advanced ClickMode
+
+##### Min/Max Cps/Delay
+
+*Min*/*Max* Random Values for *Cps* / *Delay* values.
+
+##### Spikes/Drops
+
+> **Delay**: Delay beetwen each *spike*/*drop*.
+
+> **Min/Max Duration**: Duration of each *spike*/*drop*.
+
+> **Multi**: Cps Multiplier and Delay Divisor for *spike*/*drop*.
+
+##### Reduce InAir / OnWall
+
+> **Min/Max Multiplier**: Cps Multiplier and Delay Divisor for reduction.
+
+> **Min/Max Recalculate Delay**: Recalculate Delay for each Multiplier.
+
+##### Hurttimes to hit n
+
+Toggle for each Hurttime n to attack on
+
+
+
 
 ### Interactions
 
@@ -211,11 +336,11 @@ You can find there packet based interactions of attacking/blocking.
 
 How killaura will attack
 
-> Legit: Will invoke clickMouse() function in minecraft code.
+> **Legit**: Will invoke clickMouse() function in minecraft code.
 
-> Packet: Instead of asking minecraft to attack, sends packet C02PacketUseEntity with action ATTACK and entity your target.
+> **Packet**: Instead of asking minecraft to attack, sends packet C02PacketUseEntity with action ATTACK and entity your target.
 
-> Multi: Will attack multiple entities in one tick. Switch killaura is way less undetected. This won't work on 90% of anticheats. Not worth to use anyway, switch killaura is almost the same.
+> **Multi**: Will attack multiple entities in one tick. Switch killaura is way less undetected. This won't work on 90% of anticheats. Not worth to use anyway, switch killaura is almost the same.
 
 #### BlockMode
 
