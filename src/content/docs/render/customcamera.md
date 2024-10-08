@@ -1,5 +1,5 @@
 ---
-title: 
+title: CustomCamera
 ---
 
 Enables customization of the camera perspective or view in the game
