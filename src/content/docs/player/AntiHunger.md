@@ -3,6 +3,16 @@ title: AntiHunger
 description: Prevents hunger while traveling on the map
 ---
 
-This function is useful because there are servers with skypvp mode and others, where you spend hunger, this function allows you to slow down this effect, which allows you to move more around the map and spend less food. This function bypasses such anti-cheats as AAC, NCP, Matrix (I'm not sure about new versions, but you can try) and others.
+AntiHunger is used to reduce the rate at what hunger declines
 
-❗But I do not guarantee that it can work everywhere, test the function on servers where you can check each anticheat and see the results❗
+
+<div style="border-left: 3px solid #EEBD53; background-color: #5C4C29; padding: 10px 15px; color: #F4E6C5; font-family: Arial, sans-serif; font-size: 14px; max-width: 600px; border-radius: 8px; box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);">
+  <div style="display: flex; align-items: center; font-weight: bold; margin-bottom: 1px;">
+    <span style="font-size: 20px; margin-right: 10px;">&#9888;</span>
+    <span>Caution</span>
+  </div>
+  <div>
+   Using this can get you kicked on certain servers for sending to many packets
+  </div>
+</div>
+
