@@ -39,7 +39,7 @@ Latency: 0%
 
 Movement: 0%
 
-Render: 0%
+Render: 99%
 
 World: 0%
 
