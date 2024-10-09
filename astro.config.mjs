@@ -74,12 +74,7 @@ export default defineConfig({
                             items: [
                                 { slug: 'movement/motionmod' }
                             ],
-                        },   
-                        {
-                            label: 'Movement',
-                            items: [
-                            ],
-                        },             
+                        },              
                         {
                             label: 'Player',
                             items: [
