@@ -74,15 +74,14 @@ export default defineConfig({
                             items: [
                                 { slug: 'movement/motionmod' }
                             ],
-                        },   
-                        {
-                            label: 'Movement',
-                            items: [
-                            ],
-                        },             
+                        },                
                         {
                             label: 'Player',
                             items: [
+                                { slug: 'player/anticactus' },
+                                { slug: 'player/antifire' },
+                                { slug: 'player/antihunger' },
+                                { slug: 'player/autorespawn' },
                             ],
                         },
                         {
