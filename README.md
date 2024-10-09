@@ -39,6 +39,8 @@ Latency: 0%
 
 Movement: 0%
 
+Player: 0%
+
 Render: 0%
 
 World: 0%
