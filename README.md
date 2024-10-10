@@ -39,7 +39,7 @@ Latency: 0%
 
 Movement: 0%
 
-Player: 0%
+Player: 36%
 
 Render: 0%
 
