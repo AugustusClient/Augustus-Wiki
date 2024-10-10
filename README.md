@@ -41,7 +41,7 @@ Movement: 0%
 
 Player: 36%
 
-Render: 0%
+Render: 100%
 
 World: 0%
 
