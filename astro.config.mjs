@@ -78,10 +78,15 @@ export default defineConfig({
                         {
                             label: 'Player',
                             items: [
+                                { slug: 'player/airstuck' },
                                 { slug: 'player/anticactus' },
                                 { slug: 'player/antifire' },
                                 { slug: 'player/antihunger' },
+                                { slug: 'player/autoeat' },
+                                { slug: 'player/autoenderpearl' },
+                                { slug: 'player/autoextinguish' },
                                 { slug: 'player/autorespawn' },
+                                { slug: 'player/autotool' },
                             ],
                         },
                         {
