@@ -2,7 +2,7 @@
 title: AntiCactus
 description: Prevents damage from cactus
 ---
-The AntiCactus module prevents damage from cacti
+The AntiCactus module prevents damage from cactus
 
 # OnlySide
 
