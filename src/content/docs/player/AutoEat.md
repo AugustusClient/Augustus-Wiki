@@ -5,7 +5,7 @@ description: Automatically eats food for you when you are hungry
 
 This feature allows you to automate eating food while traveling on the map, so you will waste less food and always be full.
 
-### Sliders MinHunger and MaxHunger
+### MinHunger and MaxHunger
 Allows you to adjust from what hunger point you want the character to eat food. (From 1 to 20)
 
 ### UseGapple
