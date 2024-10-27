@@ -6,7 +6,7 @@ Augustus has some common errors that might result from user error or client malf
 ### Login errors
 Login erros can have many causes, ranging from connection problems, wrong credentials or HWID changes
 
-#### Login failed Invalid password!
+#### Login failed Invalid password
 The password you entered was wrong. Please make sure that it is typed correctly and check if capslock is enabled.
 <img src="https://i.imgur.com/9k10dqP.png">
 
@@ -57,7 +57,7 @@ This errors are related when you start Augustus
 Wait 10 seconds before clicking. Check if you can connect to the Augustus server from your location. VPN might be needed from countries like China (server is hosted in Germany). For issues, open a support ticket in the [Outtave Discord](https://discord.gg/jgYaquhUp7)
 
 #### No connection to server, try again later
-Server might be offline or restarting. Check ⁠news for maintenance info. Ensure internet connection and VPN if needed. For further help, create a support ticket in the [Outtave Discord](https://discord.gg/jgYaquhUp7)
+Server might be offline or restarting. Che⁠news ck for maintenance info. Ensure internet connection and VPN if needed. For further help, create a support ticket in the [Outtave Discord](https://discord.gg/jgYaquhUp7)
 
 #### Stuck at Downloading Launcher, Resources, or Client
 Stable internet connection required. Downloads should complete in 10 minutes. If stuck at 0.1%, wait for a minute. Enable/disable VPN before downloading, not during. For help, use a support ticket in the [Outtave Discord](https://discord.gg/jgYaquhUp7)
