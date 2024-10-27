@@ -53,7 +53,7 @@ If you forgot/lost one of those things you can try going to the [Augustus-Bot](h
 This errors are related when you start Augustus
 
 
-#### Connecting to server…
+#### Connecting to server
 Wait 10 seconds before clicking. Check if you can connect to the Augustus server from your location. VPN might be needed from countries like China (server is hosted in Germany). For issues, open a support ticket in the [Outtave Discord](https://discord.gg/jgYaquhUp7)
 
 #### No connection to server, try again later
@@ -66,4 +66,4 @@ Stable internet connection required. Downloads should complete in 10 minutes. If
 Install minecraft vanilla 1.8.8 and restart Augustus
 
 ### My account does not work in the Accountmanager:
-Change your skin at minecraft.net and try again, works sometimes
+Change your skin at minecraft.net and try again, works sometimes#
