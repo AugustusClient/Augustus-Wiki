@@ -55,7 +55,20 @@ Create a support ticket in [Outtave Discord](https://discord.gg/jgYaquhUp7).You 
 If you forgot your Username, password or license key for Augustus here you can try recovering those things
 
 ### Forgot Username, Password or License key
+
+#### Forgot Username, Password
+
+
+
+
+#### Forgot the license key
+This only works if the discord account that the key was linked to still exists. If that account is lost due to an termination or lost account information, augustus staff isnt able to support you to gain back accsess to your augustus account
+
+
 If you forgot/lost one of those things you can try going to the [Augustus-Bot](https://discord.com/users/1145955612031729677) and click on this small box. <img src="https://i.imgur.com/mtq6CWp.png"> the bot will now show you what you typed to it and you can copy those credentials. If this isnt working you have to go into the [Outtave Discord](https://discord.gg/jgYaquhUp7) and create a support ticket.
+
+
+
 
 ## Launcher Startup Errors
 This errors are related when you start Augustus
