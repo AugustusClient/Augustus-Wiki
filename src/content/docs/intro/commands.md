@@ -130,3 +130,6 @@ Will let you set a custom message that the Fun > Spammer will send into chat
 
 - Example: .autoregister get
 <img src="https://i.imgur.com/fcFDQ35.png">
+
+## .gc
+Clears memory that augustus uses

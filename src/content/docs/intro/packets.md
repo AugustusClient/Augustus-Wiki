@@ -2,7 +2,7 @@
 title: Packets and their Uses
 ---
 
-### Incoming Packets (Packets sent from the server to the client):
+## Incoming Packets (Packets sent from the server to the client):
 - **S00PacketKeepAlive**: Used by the server to check if the client is still responsive by sending periodic keep-alive packets.
 - **S02PacketChat**: Sends chat messages from the server to the client.
 - **S03PacketTimeUpdate**: Updates the time of day on the client to synchronize with the server.
@@ -76,7 +76,7 @@ title: Packets and their Uses
 - **S48PacketResourcePackSend**: Sends a resource pack URL for the client to download.
 - **S49PacketUpdateEntityNBT**: Sends updated NBT data for an entity.
 
-### Outgoing Packets (Packets sent from the client to the server):
+## Outgoing Packets (Packets sent from the client to the server):
 - **C00PacketKeepAlive**: Sent by the client to keep the connection alive.
 - **C01PacketChatMessage**: Sends a chat message from the client to the server.
 - **C02PacketUseEntity**: Interacts with an entity, such as attacking or interacting with it.
@@ -105,7 +105,7 @@ title: Packets and their Uses
 
 These packet types represent a variety of actions and data exchanged between the client and server in Minecraft, from movement and combat to world interaction and game state
 
-### EntityActionsToCancel:
+## EntityActionsToCancel:
 These are actions associated with an entity's behavior, particularly the player, and they likely correspond to player actions that can be canceled.
 
 - **StartSprint**: Indicates that the player begins sprinting.
@@ -116,7 +116,7 @@ These are actions associated with an entity's behavior, particularly the player,
 - **RidingJump**: Used when the player performs a jump while riding an entity (e.g., a horse or pig).
 - **OpenInventory**: Triggers when the player opens their inventory.
 
-### DiggingPacket:
+## DiggingPacket:
 These are related to the block digging or destruction process, typically handled when the player interacts with blocks.
 
 - **StartDestroyBlock**: Indicates the player has started breaking a block.
