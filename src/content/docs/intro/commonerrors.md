@@ -55,10 +55,23 @@ Create a support ticket in [Outtave Discord](https://discord.gg/jgYaquhUp7).You 
 If you forgot your Username, password or license key for Augustus here you can try recovering those things
 
 ### Forgot Username, Password or License key
+This section will tell you everything you need to know when you lost your username, password or license key
 
-#### Forgot Username, Password
+#### Forgot username
+In  case you forget your Username you can open a ticket in the [Outtave Discord](https://discord.gg/jgYaquhUp7) with the discord account you linked your augustus account to and provide your license key. Then a admin can give you your username
 
-
+#### Forgot password
+If you forget your password to your augustus account you can go to the 
+[Augustus-Bot](https://discord.com/users/1145955612031729677) and let it reset there 
+<div style="border-left: 3px solid #EEBD53; background-color: #5C4C29; padding: 10px 15px; color: #F4E6C5; font-family: Arial, sans-serif; font-size: 14px; max-width: 600px; border-radius: 8px; box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);">
+  <div style="display: flex; align-items: center; font-weight: bold; margin-bottom: 1px;">
+    <span style="font-size: 20px; margin-right: 10px;">&#9888;</span>
+    <span>Caution</span>
+  </div>
+  <div>
+    You need to know your username and license key for this to work and you need to be on the discord account you linked your augustus account to
+  </div>
+</div>
 
 
 #### Forgot the license key
