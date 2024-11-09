@@ -21,8 +21,7 @@ The password you entered was wrong. Please make sure that it is typed correctly 
 <img src="https://i.imgur.com/9k10dqP.png">
 
 ### Login failed Invalid HWID
-Your HWID changed and you have to reset it. You get your own HWID reset every 14 day. You can do the change on your own in the designated HWID change tab in the launcher. After you did that there will be the 14 day HWID reset cooldown. 
-That cooldown can be reset by admins when making a ticket and explaining why you need another one
+Your HWID changed and you have to reset it. You get your own HWID reset every 14 day.
 <img src="https://i.imgur.com/j4Egqx7.png">
 
 ### Login failed: username does not exist
@@ -38,7 +37,8 @@ Errors related to HWID resets
 Your HWID didnt change so there is no need to update it via the HWID reset tab
 
 ### You already refreshed your HWID last time! Try again later
-You already reset your HWID and have to wait for 14 days
+You already reset your HWID and have to wait for 14 days. You can do the change on your own in the designated HWID change tab in the launcher. After you did that there will be the 14 day HWID reset cooldown. 
+That cooldown can be reset by admins when making a ticket and explaining why you need another one
 
 ### No valid username/password/activation-key
 You made a typo in one of your inputs. Please make sure that capslock is not enabled and try again
