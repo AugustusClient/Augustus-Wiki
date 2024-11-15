@@ -159,7 +159,12 @@ export default defineConfig({
                                 { slug: 'render/tntesp' },
                                 { slug: 'render/tracers' },
                                 { slug: 'render/trajectories' },
-
+                            ],
+                        },
+                        {
+                            label: 'World',
+                            items: [
+                                { slug: 'world/fastbreak' }
                             ],
                         },
                         {
@@ -212,6 +217,12 @@ export default defineConfig({
                                 { slug: 'fun/spinbot'},
                             ],
                         },
+                    ],
+                },
+                {
+                    label: 'TOS',
+                    items: [
+                        { slug: 'tos/tos' }
                     ],
                 },
             ],
