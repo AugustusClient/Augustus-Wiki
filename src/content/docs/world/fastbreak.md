@@ -18,7 +18,10 @@ Removes the delay that occourse when breaking blocks
 Ignores the mining fatigue effect and lets you mine normally
 
 ## Ignore Beds
-Will ignore beds in FastBreak and will not apply any fastbreaking to a bed
+Will ignore beds in FastBreak and will not apply any fastbreaking to a bed. Some Ser
+
+## DebugBreakSpeed
+
 
 ## CustomInAirMultiplier
 Lets you set a InAir Multiplier for breaking

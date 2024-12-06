@@ -118,6 +118,7 @@ export default defineConfig({
                                 { slug: 'render/chinahat' },
                                 { slug: 'render/chunkanimator' },
                                 { slug: 'render/clickgui' },
+                                { slug: 'render/cosmetics' },
                                 { slug: 'render/coordinates' },
                                 { slug: 'render/crosshair' },
                                 { slug: 'render/customcamera' },
