@@ -56,6 +56,7 @@ export default defineConfig({
                                 { slug: 'combat/antibot' },
                                 { slug: 'combat/autogapple' },
                                 { slug: 'combat/killaura' },
+                                {slug: 'combat/morekb' },
                             ],
                         },
                         {
@@ -118,6 +119,7 @@ export default defineConfig({
                                 { slug: 'render/chinahat' },
                                 { slug: 'render/chunkanimator' },
                                 { slug: 'render/clickgui' },
+                                { slug: 'render/cosmetics' },
                                 { slug: 'render/coordinates' },
                                 { slug: 'render/crosshair' },
                                 { slug: 'render/customcamera' },
@@ -159,7 +161,12 @@ export default defineConfig({
                                 { slug: 'render/tntesp' },
                                 { slug: 'render/tracers' },
                                 { slug: 'render/trajectories' },
-
+                            ],
+                        },
+                        {
+                            label: 'World',
+                            items: [
+                                { slug: 'world/fastbreak' }
                             ],
                         },
                         {
@@ -212,6 +219,12 @@ export default defineConfig({
                                 { slug: 'fun/spinbot'},
                             ],
                         },
+                    ],
+                },
+                {
+                    label: 'TOS',
+                    items: [
+                        { slug: 'tos/tos' }
                     ],
                 },
             ],

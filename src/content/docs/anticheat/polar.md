@@ -9,3 +9,13 @@ A so called "modern anticheat on the market" with funny "ai" detections/heuristi
 - First transaction on join will be a negative number
 - Every other transaction will go down by one after going up
 - Exemple : -1500 -250 -251 -252
+
+## Servers that use Polar
+
+- Universocraft
+
+- Gamster
+
+- Hycraft
+
+- Craftok
