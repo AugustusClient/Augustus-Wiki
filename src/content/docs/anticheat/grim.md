@@ -13,3 +13,14 @@ title: Grim
 - Third transaction will be -2
 - If you're standing still, Grim will send 1 transaction every ~2 ticks
 - Can be checked for by typing /grim into chat
+
+## Servers that use Grim
+- Herobrine.org
+
+- Zentic
+
+- Zonecraft(Grim custom fork)
+
+- Herobrine
+
+- Hylex
