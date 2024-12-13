@@ -56,6 +56,7 @@ export default defineConfig({
                                 { slug: 'combat/antibot' },
                                 { slug: 'combat/autogapple' },
                                 { slug: 'combat/killaura' },
+                                {slug: 'combat/morekb' },
                             ],
                         },
                         {
