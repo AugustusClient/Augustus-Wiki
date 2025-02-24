@@ -1,3 +1,8 @@
+# !!! On Temporary Hold !!!
+As i am currently having my exam season i have to allocate 95% of my time to study and work. Hence why additions to the Wiki will be halted until around June or July depending on how the final exam times are. Until then i wont be working on the wiki. Here and there i might look into pull requests and issues. After my Exams are done and i get my Job everything will return to normal and the Wiki becomes active again :D
+
+
+
 # Augustus Wiki
 The Unoffical Augustus client wiki! This was written and hosted by Muffinmaker
 
