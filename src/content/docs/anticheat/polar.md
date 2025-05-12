@@ -19,3 +19,5 @@ A so called "modern anticheat on the market" with funny "ai" detections/heuristi
 - Hycraft
 
 - Craftok
+
+- mc.funtime.su
