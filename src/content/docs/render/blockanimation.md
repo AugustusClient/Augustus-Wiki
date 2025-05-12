@@ -1,8 +1,7 @@
 ---
 title: BlockAnimation
 ---
-Replaces all barriers with a broken texture pack to make them visible
-
+Lets you customize the blocking animationn
 
 ### None
 

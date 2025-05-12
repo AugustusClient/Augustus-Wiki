@@ -94,7 +94,7 @@ Minimum and maximum emission delay settings
 Enables normal distribution
 
 ### Sigma / Center
-Distribution settings for double reset
+Sigma and Center modifies the percantage of values being picked by min and max. Simplefied said if you set min to 1 and max to 10 without normal distribution it would just give every value a 10% chance of being picked and that would change depending on what you set. With sigma and center you can shift around those odds to make the outcome more randomized. TL:DR Use this to make every value for min and max random to make it harder to be detected if anticheats check for this
 
 ## Fail Settings
 Lets you configure certain settings to make MoreKB seem legit
