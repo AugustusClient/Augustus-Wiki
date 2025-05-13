@@ -20,6 +20,7 @@ export default defineConfig({
                         { slug: 'intro/goodtoknowthings'},
                         { slug: 'intro/commands'},
                         { slug: 'intro/commonerrors'},
+                        { slug: 'intro/howtocontribute'},
                         {
                             label: 'AntiCheats ',
                             items: [
