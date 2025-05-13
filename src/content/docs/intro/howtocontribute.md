@@ -16,6 +16,7 @@ To install everything needed open the Terminal inside your IDE move to the root 
 
 ### 4. Self testing
 To test changes made type npm run dev which will host a copy of the Wiki which updates in realtime and to make sure everything is working
+
 ### 5. Commit changes
 After you are done changing things you can commit those to your fork of the wiki and then PR them to the staging repo of AugustusWiki which will then be reviewd and in the best case merged
 
@@ -25,6 +26,6 @@ After you are done changing things you can commit those to your fork of the wiki
     <span>Information</span>
   </div>
   <div>
-     Do not update any node.js packages. Updates to those packages will be done by Maintainers of the Repo. IF you PR changes that include modification to either package-lock.json or package.json your PR will be denied
+     Do not update any node.js packages. Updates to those packages will be done by Maintainers of the Repo. IF you PR changes that include modification to either package-lock.json or package.json your PR will be denied. If you somehow update one of those 2 files dont stage the change when you commit and you should be good
   </div>
 </div>
